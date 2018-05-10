@@ -1,0 +1,405 @@
+*{
+    margin:0px;
+    padding:0px;
+    height:auto;
+}
+body{
+    font-family: 'Open Sans', sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+}
+.padding-remove{
+    padding: 0 !important;
+}
+.clearfix{
+    clear: both;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.cricket-gaming{
+    background-image: url("../images/hero-background.jpg");
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cricket-gaming-background{
+        overflow: hidden;
+    /*background-image: url("../images/bg2.jpg");*/
+    height: 100%;
+    width: 30% !important;
+    margin: 0 auto;
+    /*background-repeat: no-repeat;*/
+    /*background-size: 100% 100%;*/
+}
+.cricket-gaming-header{
+
+}
+.cricket-fixed-header{
+    background-image: url("../images/header.jpg");
+    width: 30%;
+    position: fixed;
+    z-index: 99999;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 50px;
+}
+.cricket-gaming-heading{
+    width: 100%;
+}
+.cricket-gold-coin{
+    padding-top: 10px;
+}
+.coins-image{
+    width:22px;
+    float: left;
+}
+.cricket-gold-coin h3{
+    margin: 0;
+    width: 60%;
+    float: left;
+    color: #e6c545;
+    font-size: 18px;
+    font-weight: 700;
+    padding:3px 5px 0;
+}
+.cricket-golive-games{
+    padding-top: 11px !important;
+}
+.cricket-golive-games h1{
+    font-size: 18px;
+    color: #e6c545;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+}
+.cricket-unlimited{
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+}
+.cricket-mailing{
+    width: 20%;
+    top: 20px;
+    position: absolute;
+}
+.cricket-setting{
+    width: 20%;
+    top: 20px;
+    right: 0;
+    position: absolute;
+}
+.cricket-gaming-home-page{
+    width: 100%;
+    overflow: hidden;
+        overflow: hidden;
+    background-image: url("../images/bg2.jpg");
+    height: 100%;
+    /*width: 30% !important;*/
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.cricket-width-96-per{
+    width: 96%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.cricket-team-roster h2{
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    bottom: 27px;
+    right: 88px;
+    font-style: italic;
+}
+
+.cricket-tournament-invites{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+.cricket-tournament h2{
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+        bottom: 20px;
+    right: 22px;
+    font-style: italic;
+}
+.cricket-invites h2{
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    bottom: 20px;
+    right: 22px;
+    font-style: italic;
+}
+.cricket-status-auction{
+    width: 100%;
+    margin: 0 auto;
+    /*height: 150px;*/
+    padding-top: 5px !important;
+}
+.cricket-status h2{
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+        bottom: 20px;
+    right: 22px;
+    font-style: italic;
+}
+.cricket-auction h2{
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+        bottom: 20px;
+    right: 22px;
+    font-style: italic;
+}
+.cricket-scroll-bar::-webkit-scrollbar {
+    width: 5px;
+    background:transparent;
+}
+
+.cricket-scroll-bar::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 255, 0);
+    border-radius: 50px;
+}
+
+.cricket-scroll-bar::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.01);
+    background: #8cd9ff;
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .cricket-fixed-header {
+        width: 100%;
+    }
+    .cricket-gaming-background{
+        width: 100% !important;
+        /*height: -moz-calc(100vh - (128px));
+        height: -webkit-calc(100vh - (128px));
+        height: calc(100vh - (128px));
+        overflow-y: auto;*/
+    }
+    .cricket-gaming-home-page{
+        height: -moz-calc(100% - (128px));
+        height: -webkit-calc(100% - (128px));
+        height: calc(100% - (128px));
+        overflow-y: auto;    
+    }
+    .cricket-team-roster h2 {
+        right: 67px;
+        font-size: 11px;
+    }
+    .cricket-tournament h2 {
+        font-size: 11px;
+        right: 16px;
+        bottom: 18px;
+    }
+    .cricket-invites h2 {
+        font-size: 11px;
+        bottom: 18px;
+    }
+    .cricket-auction h2 {
+        font-size: 11px;
+        bottom: 18px;
+        right: 15px;
+    }
+    .team-roster1{
+        width: 100%;
+        height: 20vh;
+    }
+    .team-roster2{
+        width: 98%;
+        height: 20vh;    
+    }
+    .team-roster3{
+        width: 98%;
+        height: 20vh;
+        float: right;
+    }
+    .team-roster4{
+        width: 100%;
+        height: 20vh;
+    }
+    .team-roster5{
+        width: 98%;
+        height: 20vh;
+        float: right;
+    }
+}
+@media (min-width: 601px) and (max-width: 767px){
+    .cricket-fixed-header {
+        width: 100%;
+    }
+    .cricket-gaming-background{
+        width: 100% !important;
+    }
+    .cricket-team-roster h2 {
+        right: 67px;
+        font-size: 11px;
+    }
+    .cricket-tournament h2 {
+        font-size: 11px;
+        right: 16px;
+        bottom: 18px;
+    }
+    .cricket-invites h2 {
+        font-size: 11px;
+        bottom: 18px;
+    }
+    .cricket-auction h2 {
+        font-size: 11px;
+        bottom: 18px;
+        right: 15px;
+    }
+    .team-roster1{
+        width: 100%;
+        height: 20vh;
+    }
+    .team-roster2{
+        width: 98%;
+        height: 20vh;    
+    }
+    .team-roster3{
+        width: 98%;
+        height: 20vh;
+        float: right;
+    }
+    .team-roster4{
+        width: 100%;
+        height: 20vh;
+    }
+    .team-roster5{
+        width: 98%;
+        height: 20vh;
+        float: right;
+    }
+}
+@media (min-width: 480px) and (max-width: 600px){
+    .cricket-fixed-header {
+        /*background-image: url("../images/header.jpg");*/
+        width: 100%;
+    }
+    .cricket-gaming-background{
+        width: 100% !important;
+    }
+    .cricket-team-roster h2 {
+        right: 67px;
+        font-size: 11px;
+    }
+    .cricket-tournament h2 {
+        font-size: 11px;
+        right: 16px;
+        bottom: 18px;
+    }
+    .cricket-invites h2 {
+        font-size: 11px;
+        bottom: 18px;
+    }
+    .cricket-auction h2 {
+        font-size: 11px;
+        bottom: 18px;
+        right: 15px;
+    }
+    .team-roster1{
+        width: 100%;
+        height: 20vh;
+    }
+    .team-roster2{
+        width: 98%;
+        height: 20vh;    
+    }
+    .team-roster3{
+        width: 98%;
+        height: 20vh;
+        float: right;
+    }
+    .team-roster4{
+        width: 100%;
+        height: 20vh;
+    }
+    .team-roster5{
+        width: 98%;
+        height: 20vh;
+        float: right;
+    }
+    .cricket-unlimited {
+        width: 80%;
+    }
+}
+@media (min-width: 320px) and (max-width: 479px){
+    .cricket-fixed-header {
+        /*background-image: url("../images/header.jpg");*/
+        width: 100%;
+    }
+    .cricket-gaming-background{
+        width: 100% !important;
+    }
+    .cricket-gold-coin {
+        padding-top: 9px;
+    }
+    .cricket-gold-coin h3 {
+        font-size: 14px;
+    }
+    .cricket-golive-games h1 {
+        font-size: 14px;
+    }
+    .cricket-golive-games {
+        padding-top: 12px !important;
+    }
+    .cricket-team-roster h2 {
+        right: 67px;
+        font-size: 11px;
+    }
+    .cricket-tournament h2 {
+        font-size: 11px;
+        right: 16px;
+        bottom: 18px;
+    }
+    .cricket-invites h2 {
+        font-size: 11px;
+        bottom: 18px;
+    }
+    .cricket-auction h2 {
+        font-size: 11px;
+        bottom: 18px;
+        right: 15px;
+    }
+    .team-roster1{
+        width: 100%;
+        /*height: 20vh;*/
+    }
+    .team-roster2{
+        width: 98%;
+        /*height: 20vh;    */
+    }
+    .team-roster3{
+        width: 98%;
+        /*height: 20vh;*/
+        float: right;
+    }
+    .team-roster4{
+        width: 98%;
+        /*height: 20vh;*/
+    }
+    .team-roster5{
+        width: 98%;
+        /*height: 20vh;*/
+        float: right;
+    }
+    .cricket-unlimited {
+        width: 80%;
+    }
+}

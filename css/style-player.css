@@ -1,0 +1,89 @@
+.cricket-player-head{
+	/*background-image: url("../images/player-head1.png");*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: 100% 100%;*/
+}
+.cricket-player-head h2{
+	    position: absolute;
+    font-size: 13px;
+    color: #2e2e2e;
+    font-weight: 700;
+    margin: 0;
+    top: 0;
+    padding: 0 0 0 10px;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+.Batting-Style{
+	color: #cbe8ff;
+	font-size: 10px !important;
+	font-weight: 700;
+	text-align: center;
+	border-top: 0 !important;
+	text-shadow: 0px 0px 10px rgba(35, 80, 122, 0.75);
+}
+.Batting-select{
+	background-image: url("../images/1.png");
+	background-repeat: no-repeat;
+	color: #ffdf7f;
+	font-size: 10px !important;
+	font-weight: 700;	
+	text-align: center;
+	background-size: 100% 100%;
+	border-top: 0 !important;
+	text-shadow: 0px 0px 20px rgba(146, 55, 26, 0.85);
+}
+.cricket-player-details{
+	margin-top: 10px !important;
+	margin-bottom: 0 !important;
+}
+.batting-graph{
+	border-top: 0 !important;
+}
+.batting-graph img{
+	padding: 0 8px;
+}
+.cricket-player-border-top{
+	border-top: 2px solid #8faabf !important;
+}
+.cricket-player-95-percent{
+	width: 95% !important;
+	margin: 0 auto !important;
+}
+.cricket-gaming-40-percent{
+	width: 40% !important;
+}
+.cricket-gaming-40-percent h2{
+	line-height: 44px;
+}
+.cricket-gaming-28-percent{
+	width: 28% !important;
+}
+.cricket-gaming-15-percent{
+	width: 15% !important;
+}
+.cricket-gaming-28-percent img{
+	padding: 7px 18px;
+}
+.cricket-player-details td{
+	padding: 7px !important;
+}
+
+
+@media (min-width: 320px) and (max-width: 479px){
+	.cricket-player-details td {
+	    padding: 4px !important;
+	}
+	.cricket-gaming-team-row td {
+        padding: 0 5px !important;
+    }
+    .cricket-player-height {
+	    height: -moz-calc(100vh - (295px));
+	    height: -webkit-calc(100vh - (295px));
+	    height: calc(100vh - (295px));
+	}
+	.cricket-golive-games h1{
+		font-size: 14px !important;
+	}
+}

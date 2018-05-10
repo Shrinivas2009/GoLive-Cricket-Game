@@ -1,0 +1,78 @@
+.cricket-gaming-invites-continue-button{
+	/*background: #292f3c;*/
+	background: rgb(41,47,60,0.6);
+	overflow: hidden;
+	clear: both;
+    /*width: 94.5%;*/
+    margin: 0 auto;
+    position: relative;
+    padding: 25px 0;
+    top: 115px;
+    border-top: 2px solid #85c2fe;
+    -webkit-box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.75);
+}
+.cricket-gaming-invites-continue-button button{
+	background-image: url("../images/continue.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 0 !important;
+    border: 2px solid #16181d;
+    text-shadow: 2px 2px 4px #000000;
+}
+.cricket-gaming-invites-continue-button button:hover{
+	color: #fff;
+}
+.cricket-gaming-noeffect-view-list:hover{
+	transform: scale(1.0) !important;
+	border-color: #000 !important;
+}
+.cricket-release-extend-details{
+		width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-top: 5px;
+}
+.cricket-contract-expiring{
+
+}
+.cricket-contract-expiring p{
+	font-size: 12px;
+	color: #bf393c;
+	margin-bottom: 0;
+	font-weight: 700;
+	    padding: 0 0 0 10px;
+}
+.cricket-release{
+
+}
+.cricket-extend{
+
+}
+.cricket-release button{
+	background-image: url("../images/release.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 0 !important;
+    border: none !important;
+}
+.cricket-extend button{
+	background-image: url("../images/extend.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 0 !important;
+    border: none !important;
+}
+.cricket-release button:hover{
+	color: #fff;
+}
+.cricket-extend button:hover{
+	color: #fff;
+}

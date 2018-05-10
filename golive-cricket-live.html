@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Cricket Game</title>
+	<link rel="stylesheet" type="text/css" href="css/style-t.css">
+	<link rel="stylesheet" type="text/css" href="css/rule-monthly.css">
+	<link rel="stylesheet" type="text/css" href="css/style-drop.css">
+	<link rel="stylesheet" type="text/css" href="css/style-invite.css">
+	<link rel="stylesheet" type="text/css" href="css/golive-cricket.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-slider.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link href="css/sliders-full.css" rel="stylesheet" type="text/css">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,500,600,700,800,400italic,700italic,800italic' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<!--  -->
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+	<style type="text/css">
+		#ex1Slider .slider-selection {
+			/*background: #BABABA;*/
+		}
+	</style>
+</head>
+<body>
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove cricket-gaming">
+		<div class=" padding-remove cricket-gaming-background">
+			<header class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove cricket-gaming-header">
+				<div class="cricket-fixed-header">
+					<!-- <img src="images/header.jpg" class="cricket-head-image"> -->
+					<div class="cricket-gaming-heading">
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 padding-remove">
+							<div class="tournament-home">
+								<a href="index.html">
+									<button>
+										<img src="images/SPR_HomeIcon.png">
+									</button>
+								</a>
+							</div>	
+						</div>
+						<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 padding-remove">
+							<div class=" cricket-golive-games">
+								<h1 style="font-size: 18px;">GoLive Cricket Club</h1>
+							</div>	
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 padding-remove">
+							<div class="tournament-refresh tournament-home">
+								<button>
+									<img src="images/close-btn.png">
+								</button>
+							</div>	
+						</div>					
+					</div>
+				</div>	
+			</header>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove" style="top: 50px;">
+				<div class="tournament-background">
+					<div class="tournament-team-name">
+						<div class="col-lg-12 col-md-12 padding-remove ">
+							<div class="tournament-team-name-width">
+								<table class="table tournament-team-table ">
+									<thead>
+										<tr>
+											<th class="cricket-gaming-team-home" style="color: #ffdf7f;">Team Name</th>
+											<th class="golive-total-matchs" style="">Total Matchs</th>
+											<th class="cricket-gaming-match-win" style=" color: #8ae62e;">WIN%</th>
+										</tr>
+									</thead>
+								</table>	
+							</div>
+							<div class="cricket-gaming-tournament">
+								<ul class="cricket-gaming-tournament-view cricket-scroll-bar">
+									<li class="cricket-gaming-tournament-view-list" id="popup-person1">
+									<table class="table"  style="margin-bottom: 0 !important;">
+									<tr class="cricket-gaming-team-row">
+										<td class="cricket-gaming-team-home-list" style="text-overflow: ellipsis; overflow: hidden; white-space: nowrap;">
+											<div class="col-md-12 padding-remove golive-cricket-match-username">
+												<h2>1. Guna Sai Krishna</h2s>
+											</div>
+										</td>
+										<td class="golive-total-matchs" style="">
+											<h2>08</h2>
+										</td>
+										<td class="cricket-gaming-match-win" style="">
+											<h2>70<span style="padding: 0 0 0 3px;"><i class="fa fa-check" aria-hidden="true"></i></span></h2>
+										</td>
+									</tr>
+									</table>
+									</li>
+								    <!-- Modal HTML -->
+								    <div id="myModal" class="modal fade">
+								        <div class="modal-dialog">
+								            <div class="modal-content">
+								                <div class="modal-header padding-remove">
+								                    <h4 class="modal-title">Contract Details</h4>
+								                </div>
+								                <div class="modal-body cricket-popup-body">
+								                	<div class="cricket-popup-head">
+								                		<!-- <img src="images/tournament-head.png"> -->
+								                		<h2>Guna Sai Krishna</h2>
+								                	</div>
+								                	<div class="cricket-popup-slider">
+								                		<h2>Team: <span style="color: #ffd966;">One Week</span></h2>
+								                		<div class="slidecontainer">
+	  														<div class="slider slider-light"></div>
+														</div>
+								                	</div>
+								                    <div class="cricket-popup-slider">
+								                		<h2>Salary: <span style="color: #76e60c;">40 Coins</span></h2>
+								                		<div class="slidecontainer">
+	  														<div class="slider slider-soft"></div>
+														</div>
+								                	</div>
+								                	<div class="cricket-popup-slider">
+								                		<h2>Min. Match: <span style="color: #ff8b33;"> 3</span></h2>
+								                		<div class="slidecontainer">
+	  														<div class="slider slider-modern"></div>
+														</div>
+								                	</div>
+								                	<div class="cricket-popup-send-button">
+								                		<button class="btn center-block btn-md">SEND</button>
+								                	</div>
+								                </div>
+								            </div>
+								        </div>
+								    </div>
+									<li class="cricket-gaming-tournament-view-list" id="popup-person2">
+									<table class="table"  style="margin-bottom: 0 !important;">
+									<tr class="cricket-gaming-team-row">
+										<td class="cricket-gaming-team-home-list" style="text-overflow: ellipsis; overflow: hidden; white-space: nowrap;">
+											<div class="col-md-12 padding-remove golive-cricket-match-username">
+												<h2>2. Ravi Kiran</h2>
+											</div>
+										</td>
+										<td class="golive-total-matchs" style="">
+											<h2>12</h2>
+										</td>
+										<td class="cricket-gaming-match-win" style="">
+											<h2>65<span style="padding: 0 0 0 3px; color: #9f3325;"><i class="fa fa-times" aria-hidden="true"></i></span></h2>
+										</td>
+									</tr>
+									</table>
+									</li>
+									<div id="myModal2" class="modal fade">
+								        <div class="modal-dialog">
+								            <div class="modal-content">
+								                <div class="modal-header padding-remove">
+								                    <h4 class="modal-title">Contract Details</h4>
+								                </div>
+								                <div class="modal-body cricket-popup-body">
+								                	<div class="cricket-popup-head">
+								                		<!-- <img src="images/tournament-head.png"> -->
+								                		<h2>Ravi Kiran</h2>
+								                	</div>
+								                	<div class="cricket-popup-slider">
+								                		<h2>Team: <span style="color: #ffd966;">One Week</span></h2>
+								                		<div class="slidecontainer">
+	  														<div class="slider slider-light"></div>
+														</div>
+								                	</div>
+								                    <div class="cricket-popup-slider">
+								                		<h2>Salary: <span style="color: #76e60c;">40 Coins</span></h2>
+								                		<div class="slidecontainer">
+	  														<div class="slider slider-soft"></div>
+														</div>
+								                	</div>
+								                	<div class="cricket-popup-slider">
+								                		<h2>Min. Match: <span style="color: #ff8b33;"> 3</span></h2>
+								                		<div class="slidecontainer">
+	  														<div class="slider slider-modern"></div>
+														</div>
+								                	</div>
+								                </div>
+								            </div>
+								        </div>
+								    </div>
+
+									<li class="cricket-gaming-tournament-view-list">
+									<table class="table"  style="margin-bottom: 0 !important;">
+									<tr class="cricket-gaming-team-row">
+										<td class="cricket-gaming-team-home-list" style="text-overflow: ellipsis; overflow: hidden; white-space: nowrap;">
+											<div class="col-md-12 padding-remove golive-cricket-match-username">
+												<h2>3. Bhaskar Chaitanya</h2>
+											</div>
+										</td>
+										<td class="golive-total-matchs" style="">
+											<h2>08</h2>
+										</td>
+										<td class="cricket-gaming-match-win" style="">
+											<h2>05</h2>
+										</td>
+									</tr>
+									</table>
+									</li>
+									<li class="cricket-gaming-tournament-view-list">
+									<table class="table"  style="margin-bottom: 0 !important;">
+									<tr class="cricket-gaming-team-row">
+										<td class="cricket-gaming-team-home-list" style="text-overflow: ellipsis; overflow: hidden; white-space: nowrap;">
+											<div class="col-md-12 padding-remove golive-cricket-match-username">
+												<h2>4. Santhosh Kumar</h2>
+											</div>
+										</td>
+										<td class="golive-total-matchs" style="">
+											<h2>08</h2>
+										</td>
+										<td class="cricket-gaming-match-win" style="">
+											<h2>05</h2>
+										</td>
+									</tr>
+									</table>
+									</li>
+									<li class="cricket-gaming-tournament-view-list">
+									<table class="table"  style="margin-bottom: 0 !important;">
+									<tr class="cricket-gaming-team-row">
+										<td class="cricket-gaming-team-home-list" style="text-overflow: ellipsis; overflow: hidden; white-space: nowrap;">
+											<div class="col-md-12 padding-remove golive-cricket-match-username">
+												<h2>5. Chaitanya Kumar</h2>
+											</div>
+										</td>
+										<td class="golive-total-matchs" style="">
+											<h2>08</h2>
+										</td>
+										<td class="cricket-gaming-match-win" style="">
+											<h2>05</h2>
+										</td>
+									</tr>
+									</table>
+									</li>
+
+									<li class="cricket-gaming-tournament-view-list">
+									<table class="table"  style="margin-bottom: 0 !important;">
+									<tr class="cricket-gaming-team-row">
+										<td class="cricket-gaming-team-home-list" style="text-overflow: ellipsis; overflow: hidden; white-space: nowrap;">
+											<div class="col-md-12 padding-remove golive-cricket-match-username">
+												<h2>6. Narasimha</h2>
+											</div>
+										</td>
+										<td class="golive-total-matchs" style="">
+											<h2>08</h2>
+										</td>
+										<td class="cricket-gaming-match-win" style="">
+											<h2>05</h2>
+										</td>
+									</tr>
+									</table>
+									</li>
+									<div class="cricket-gaming-invites-continue-button">
+										<div class="col-md-12 padding-remove">
+											<button class="btn center-block btn-md">Continue</button>
+										</div>
+									</div>
+								</ul>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div>	
+		</div>
+	</div>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap-slider.js"></script>
+	<script type="text/javascript" src="js/sliders.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#popup-person1").click(function(){
+				$("#myModal").modal('show');
+			});
+		});
+
+		$(document).ready(function(){
+			$("#popup-person2").click(function(){
+				$("#myModal2").modal('show');
+			});
+		});
+
+		// With JQuery
+		$('#ex1').slider({
+			formatter: function(value) {
+				return 'Current value: ' + value;
+			}
+		});
+		$('#ex2').slider({
+			formatter: function(value) {
+				return 'Current value: ' + value;
+			}
+		});
+		// Without JQuery
+		// var slider = new Slider('#ex1', {
+		// 	formatter: function(value) {
+		// 		return 'Current value: ' + value;
+		// 	}
+		// });
+	</script>
+	<script>
+$(function(){
+$('.slider').sliders({min:10,max:100});
+});
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
