@@ -1,0 +1,250 @@
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove cricket-gaming">
+  <div class="cricket-main-bat">
+    <img src="images/pro-tip/bat-logo.png">
+  </div>
+  <div class="cricket-gaming-background cricket-main-center">
+    <header class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove cricket-gaming-header">
+      
+      <div class="cricket-fixed-header">
+        <div class="cricket-gaming-heading">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 float-left padding-remove">
+            <div class="tournament-home">
+              <a href="" routerLink="/main-page">
+                <button>
+                  <img src="images/SPR_HomeIcon.png">
+                </button>
+              </a>
+            </div>	
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 float-left padding-remove">
+            <div class=" cricket-golive-games">
+              <h1>ADD FRIENDS</h1>
+            </div>	
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 cricket-gold-coin">
+            
+          </div>					
+        </div>
+      </div>
+    </header>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove" style="top: 50px;">
+      <div class="tournament-background leader-board-width">
+        <div class="tournament-team-name">
+          <div class="col-lg-12 col-md-12 padding-remove ">
+            <div class="tournament-team-name-width">
+
+            </div>
+            <div class="cricket-gaming-tournament">
+              <div class="cricket-myDeck-height cricket-myDeck-height-66">	
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove">
+                    <div class="cricket-card">
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li *ngFor="let friend of addFriend; let first = first;" [ngClass]="{firstItem: first}"  
+                          role="presentation" class="accounts_li" [class.active]="selectedFriend===friend" (click)="selectedFriend = friend" style="padding: 10px 0; color: #fff;">
+                          <a  aria-controls="one" role="tab" data-toggle="tab">
+                            {{friend}}
+                          </a>
+                        </li>
+                      </ul>
+                      <div class="tab-content padding-remove">
+                          <div *ngIf="selectedFriend === addFriend[0]" role="tabpanel" class="tab-pane active" id="one">
+                            <div class="cricket-add-friends">
+                              <div class="tournament-team-name">
+                            <div class="col-lg-12 col-md-12 padding-remove ">
+                              <div class="tournament-team-name-width width-100-percentage">
+                                <table class="table tournament-team-table margin-top-zero">
+                                  <thead>
+                                    <tr>
+                                      <th class="cricket-add-friend-sno">
+                                        S.No
+                                      </th>
+                                      <th class="cricket-add-friend-name" style="text-align: left;">
+                                        NAME
+                                      </th>
+                                      <th class="cricket-add-friend-challenge">
+                                        CHALLENGE
+                                      </th>
+                                      <th class="cricket-add-friend-remove">
+                                        REMOVE
+                                      </th>
+                                    </tr>
+                                  </thead>
+                                </table>	
+                              </div>
+                              <div class="cricket-gaming-tournament">
+                                <ul class="cricket-gaming-tournament-view cricket-scroll-bar">
+                                  <li class="cricket-gaming-tournament-view-list cricket-gaming-noeffect-view-list row toggle" id="dropdown-detail-1" data-toggle="detail-1">
+                                    <table class="table" style="margin-bottom: 0 !important;">
+                                      <tbody><tr class="cricket-gaming-team-row">
+                                        <td class="cricket-add-friend-sno" style="padding: 0px !important;" >
+                                        1
+                                      </td>
+                                      <td class="cricket-add-friend-name" style="padding: 0px !important;">
+                                        Vamsi
+                                      </td>
+                                      <td class="cricket-add-friend-challenge" style="padding: 0px !important;">
+                                        <button class="center-block"><img src="images/add-frnds/BTN_Accept.png"></button>
+                                      </td>
+                                      <td class="cricket-add-friend-remove" style="padding: 0px !important;">
+                                        <button class="center-block"><img src="images/add-frnds/BTN_Decline.png"></button>
+                                      </td>
+                                      </tr>
+                                    </tbody></table>
+                                  </li>
+                                  
+                                  
+                                  <li class="cricket-gaming-tournament-view-list cricket-gaming-noeffect-view-list row toggle" id="dropdown-detail-2" data-toggle="detail-2">
+                                  <table class="table" style="margin-bottom: 0 !important;">
+                                  <tbody><tr class="cricket-gaming-team-row">
+                                    <td class="cricket-add-friend-sno" style="padding: 0px !important;" >
+                                        2
+                                      </td>
+                                      <td class="cricket-add-friend-name" style="padding: 0px !important;">
+                                        Vamsi
+                                      </td>
+                                      <td class="cricket-add-friend-challenge" style="padding: 0px !important;">
+                                        <button class="center-block"><img src="images/add-frnds/BTN_Accept.png"></button>
+                                      </td>
+                                      <td class="cricket-add-friend-remove" style="padding: 0px !important;">
+                                        <button class="center-block"><img src="images/add-frnds/BTN_Decline.png"></button>
+                                      </td>
+                                  </tr>
+                                  </tbody></table>
+                                  </li>
+                                  
+                                  
+                                  <li class="cricket-gaming-tournament-view-list cricket-gaming-noeffect-view-list row toggle" id="dropdown-detail-3" data-toggle="detail-3">
+                                  <table class="table" style="margin-bottom: 0 !important;">
+                                  <tbody><tr class="cricket-gaming-team-row">
+                                    <td class="cricket-add-friend-sno" style="padding: 0px !important;" >
+                                        3
+                                      </td>
+                                      <td class="cricket-add-friend-name" style="padding: 0px !important;">
+                                        Vamsi
+                                      </td>
+                                      <td class="cricket-add-friend-challenge" style="padding: 0px !important;">
+                                        <button class="center-block"><img src="images/add-frnds/BTN_Accept.png"></button>
+                                      </td>
+                                      <td class="cricket-add-friend-remove" style="padding: 0px !important;">
+                                        <button class="center-block"><img src="images/add-frnds/BTN_Decline.png"></button>
+                                      </td>
+                                  </tr>
+                                  </tbody></table>
+                                  </li>
+                                  
+                                  
+                                  <li class="cricket-gaming-tournament-view-list cricket-gaming-noeffect-view-list row toggle" id="dropdown-detail-4" data-toggle="detail-4">
+                                  <table class="table" style="margin-bottom: 0 !important;">
+                                  <tbody><tr class="cricket-gaming-team-row">
+                                    <td class="cricket-add-friend-sno" style="padding: 0px !important; text-align: center;" >
+                                        4
+                                      </td>
+                                      <td class="cricket-add-friend-name" style="padding: 0px !important;">
+                                        Vamsi
+                                      </td>
+                                      <td class="cricket-add-friend-challenge" style="padding: 0px !important;">
+                                        <button class="center-block"><img src="images/add-frnds/BTN_Accept.png"></button>
+                                      </td>
+                                      <td class="cricket-add-friend-remove" style="padding: 0px !important;">
+                                        <button class="center-block"><img src="images/add-frnds/BTN_Decline.png"></button>
+                                      </td>
+                                  </tr>
+                                  </tbody></table>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div *ngIf="selectedFriend === addFriend[1]" role="tabpanel" class="tab-pane active" id="two">
+                        <div class="cricket-add-friends">
+                          <div class="tournament-team-name">
+                            <div class="col-lg-12 col-md-12 padding-remove ">
+                              <div class="tournament-team-name-width width-100-percentage">
+                                <table class="table tournament-team-table margin-top-zero">
+                                  <thead>
+                                    <tr>
+                                      <th class="cricket-add-friend-sno">
+                                        S.No
+                                      </th>
+                                      <th class="cricket-add-friend-name">
+                                        NAME
+                                      </th>
+                                      <th class="cricket-add-friend-challenge">
+                                        CHALLENGE
+                                      </th>
+                                      <th class="cricket-add-friend-remove">
+                                        REMOVE
+                                      </th>
+                                    </tr>
+                                  </thead>
+                                </table>	
+                              </div>
+                              <div class="cricket-gaming-tournament">
+                                <ul class="cricket-gaming-tournament-view cricket-scroll-bar">
+                                  <li class="cricket-gaming-tournament-view-list cricket-gaming-noeffect-view-list row toggle" id="dropdown-detail-1" data-toggle="detail-1">
+                                    <table class="table" style="margin-bottom: 0 !important;">
+                                      <tbody><tr class="cricket-gaming-team-row">
+                                        <td class="cricket-add-friend-sno" style="padding: 7px !important;" >
+                                        1
+                                      </td>
+                                      <td class="cricket-add-friend-name" style="padding: 7px !important;">
+                                        Vamsi
+                                      </td>
+                                      <td class="cricket-add-friend-challenge">
+                                        <button class="center-block"><img src="images/add-frnds/BTN_Accept.png"></button>
+                                      </td>
+                                      <td class="cricket-add-friend-remove">
+                                        <button class="center-block"><img src="images/add-frnds/BTN_Decline.png"></button>
+                                      </td>
+                                      </tr>
+                                    </tbody></table>
+                                  </li>
+                                  
+                                  
+                                  <li class="cricket-gaming-tournament-view-list cricket-gaming-noeffect-view-list row toggle" id="dropdown-detail-2" data-toggle="detail-2">
+                                  <table class="table" style="margin-bottom: 0 !important;">
+                                  <tbody><tr class="cricket-gaming-team-row">
+                                    <td class="cricket-add-friend-sno" style="padding: 7px !important;" >
+                                        2
+                                      </td>
+                                      <td class="cricket-add-friend-name" style="padding: 7px !important;">
+                                        Vamsi
+                                      </td>
+                                      <td class="cricket-add-friend-challenge">
+                                        <button class="center-block"><img src="images/add-frnds/BTN_Accept.png"></button>
+                                      </td>
+                                      <td class="cricket-add-friend-remove">
+                                        <button class="center-block"><img src="images/add-frnds/BTN_Decline.png"></button>
+                                      </td>
+                                  </tr>
+                                  </tbody></table>
+                                  </li>
+
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                                            </div>
+                                          </div>
+                                      </div>
+                  </div>
+                                </div>
+                                
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove cricket-myDeck-btn">
+                                  <div class="cricket-position-fixed">
+                                    <button class="btn center-block">Continue</button>
+                                  </div>
+                                </div>
+                              </div>
+            </div>
+          </div>
+        </div>	
+      </div>
+    </div>
+  </div>
+  <div class="cricket-main-bat">
+    <img src="images/pro-tip/bowler-logo.png" style="float: right;">
+  </div>
+</div>

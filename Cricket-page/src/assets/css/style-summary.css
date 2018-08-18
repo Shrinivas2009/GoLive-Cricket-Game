@@ -1,0 +1,129 @@
+.cricket-summary-background{
+	background-image: url(../images/bg.jpg);
+}
+.cricket-match-summary-header{
+	width: 98%;
+    margin: 4px auto 0;
+    background: #222b38;
+    border-bottom: 2px solid #8faabf !important;
+    height: 35px;
+}
+.cricket-summary-height{
+	height: calc(100vh - (175px));
+}
+.cricket-match-summary-table{
+	width: 100%;
+	overflow: hidden;
+}
+.cricket-match-summary-list{
+	overflow: hidden;
+	padding: 0;
+	width: 98%;
+    margin: 0 auto;
+}
+.cricket-match-summary-list li{
+	list-style: none;
+	padding: 0;
+	margin:0;
+	background-image: url(../images/match-summary/match-summary-list.jpg);
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    border: 2px solid #242f36;
+}
+.cricket-summary-innings th{
+	text-align: left;
+	font-size: 18px;
+	font-family: 'Calibri';
+	font-weight: 700;
+	text-transform: none;
+	font-style: italic;
+	color: #fff;
+	padding: 4px 8px !important;
+	text-shadow: 0px 0px 10px rgba(80, 157, 236, 0.95);
+	/*color: #0080ff;*/
+	/*font-size: 50px;*/
+}
+.cricket-match-header-player td{
+	padding: 2px 8px !important;
+	color: #2c3340;
+}
+.cricket-match-header-player-name{
+	width: 75%;
+	float: left;
+	padding: 8px !important;
+}
+.cricket-match-header-player-total{
+	width: 25%;
+	float: left;
+	padding: 8px !important;
+}
+.cricket-bat-different-style{
+
+}
+.cricket-bat-different-style p{
+	margin: 0;
+	color: #2c3340;
+	font-weight: 700;
+	font-size: 16px;
+	white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: 'Microsoft Tai Le';
+      line-height: 28px;
+    text-shadow: 2px 0 0 #d4dbe7, -2px 0 0 #d4dbe7, 0 2px 0 #d4dbe7, 0 -2px 0 #d4dbe7, 1px 1px #d4dbe7, -1px -1px 0 #d4dbe7, 1px -1px 0 #d4dbe7, -1px 1px 0 #d4dbe7;
+}
+.cricket-match-header-player-total p{
+	margin: 0;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+	white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: 'Microsoft Tai Le';
+  text-align: center;
+  line-height: 28px;
+	text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.75);
+}
+
+.one-person-innings-width{
+	width: 70%;
+	float: left;
+	/*background-color:green;*/
+    /*position:relative;*/
+}
+.score-person-innings-width{
+	width: 30%;
+	float: left;
+}
+.one-person-innings{
+	/*width: 0; 
+	height: 0; 
+	border-top: 0px solid transparent; 
+	border-bottom: 40px solid transparent; 
+	border-left: 20px solid green;
+    position:absolute;
+    right:-20px;*/
+}
+
+
+/*#container {
+    width:150px;
+    height:40px;
+    background-color:green;
+    position:relative;
+}
+
+.arrow-right {
+	color: #fff;
+	width: 0; 
+	height: 0; 
+	border-top: 0px solid transparent; 
+	border-bottom: 40px solid transparent; 
+	border-left: 20px solid green;
+    position:absolute;
+    right:-20px;
+    top: 0;
+}*/
+

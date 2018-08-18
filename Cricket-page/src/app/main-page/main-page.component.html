@@ -1,0 +1,309 @@
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove cricket-gaming">
+  <div class="cricket-main-bat">
+    <img src="images/pro-tip/bat-logo.png">
+  </div>
+  <div class="cricket-gaming-background cricket-main-center">
+    <header class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove cricket-gaming-header">
+      <div class="cricket-fixed-header">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove cricket-gaming-heading">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 cricket-trophy-coin float-left">
+            <img src="images/header/saturation.png" class="coins-image">
+            <h3>70</h3>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-remove cricket-golive-games float-left">
+            <h1>Golive Cricket</h1>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 cricket-gold-coin float-left">
+            <img src="images/header/coin.png" class="coins-image-right">
+            <h3>6000</h3>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove" style="top: 50px;">
+      <div class="cricket-gaming-home-page">
+        <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove" style="height: 50%;">
+          <div class="cricket-btn-left-section">
+            <div class="cricket-leader-board">
+              <a href="" routerLink="/leader-board">
+                <img  src="images/btn/btn-leaderboard.png">
+              </a>
+            </div>
+            <div class="cricket-btn-team">
+              <a href="">
+                <img src="images/btn/team.png">
+              </a>
+            </div>
+            <div class="cricket-btn-mailing">
+              <a href="">
+                <img src="images/btn/messages.png">
+              </a>
+            </div>
+            <div class="cricket-btn-friends">
+              <a href="" routerLink="/add-friends">
+                <img src="images/btn/friends-btn.png">
+              </a>
+            </div>
+            <div class="cricket-btn-gift">
+              <a href="add-friends.html">
+                <img src="images/main/BtnDialyBonusMenu.png">
+              </a>
+            </div>
+          </div>
+          <div class="cricket-btn-center-section">
+            <div class="cricket-btn-bonus" id="popup-person1">
+              <img src="images/main/Gift.png">
+            </div>
+
+            
+          </div>
+          <div class="cricket-btn-right-section">
+            <div class="cricket-btn-deck">
+              <a href="" routerLink="/my-deck">
+                <img src="images/btn/mydeck.png">
+              </a>
+            </div>
+            <div class="cricket-btn-shop">
+              <a routerLink="/my-shop">
+                <img src="images/btn/shop.png">
+              </a>
+            </div>
+            <div class="cricket-btn-setting" (click)="open(content)">
+              <img src="images/btn/setting.png">
+            </div>
+            <ng-template #content let-c="close" let-d="dismiss">
+              <div class="modal-header cricket-refer-header">
+                <h2>SETTINGS</h2>
+                <button type="button" class="cricket-refer-close" aria-label="Close" (click)="d('Cross click')">
+                  <img src="images/refer/refer-close.png">
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="cricket-refer-body">
+                  <div class="cricket-probress-bar-one">
+                    <h3>Music</h3>
+                    <div id="audio-player-container">
+                      <div class="audio-progress" id="audio-progress">
+                        <div id="draggable-point" style="left:70%;position:absolute;" class="draggable ui-widget-content">
+                          <div id="audio-progress-handle"></div>
+                        </div>
+                        <div id="audio-progress-bar" class="bar" style="width:75%">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cricket-progress-bar-title">
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 float-left padding-remove">
+                        <h2>Low</h2>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 float-left padding-remove">
+                        <h2 style="text-align: center;">Medium</h2>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 float-left padding-remove">
+                        <h2 style="text-align: right">High</h2>
+                      </div>
+                    </div>
+                    <div id="posX"></div>
+                  </div>
+                  <div class="cricket-probress-bar-two">
+                    <h3>SFX</h3>
+                    <div id="audio-player-container2">
+                      <div class="audio-progress2" id="audio-progress2">
+                        <div id="draggable-point2" style="left:50%;position:absolute;" class="draggable ui-widget-content">
+                          <div id="audio-progress-handle2"></div>
+                        </div>
+                        <div id="audio-progress-bar2" class="bar2" style="width:50%">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cricket-progress-bar-title">
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 float-left padding-remove">
+                        <h2>Low</h2>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 float-left padding-remove">
+                        <h2 style="text-align: center;">Medium</h2>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 float-left padding-remove">
+                        <h2 style="text-align: right">High</h2>
+                      </div>
+                    </div>
+                    <div id="posX"></div>
+                  </div>
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove" style="overflow: hidden;">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 float-left padding-remove cricket-update-profile">
+                      <button class="btn center-block">Update Profile</button>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 float-left padding-remove cricket-help-profile">
+                      <button class="btn center-block">Help</button>
+                    </div>
+                  </div>
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove cricket-signout-profile">
+                      <button class="btn center-block">Sign Out</button>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </ng-template>
+            
+            
+
+            <div class="cricket-btn-achievements">
+              <img src="images/btn/achievements-btn.png">
+            </div>
+            <div class="cricket-btn-bouns-menu" (click)="openVerticallyCentered(contentRef)">
+              <img src="images/main/BtnReferralBonusMenu.png">
+            </div>
+
+            
+            <ng-template #contentRef let-c="close" let-d="dismiss">
+              <div class="modal-header cricket-refer-header">
+                <h2>Refferal Bonus</h2>
+                <button type="button" class="cricket-refer-close" aria-label="Close" (click)="d('Cross click')">
+                  <img src="images/refer/refer-close.png">
+                </button>
+              </div>
+              <div class="modal-body">
+                
+                <div class="cricket-refer-body">
+                  <div class="cricket-gaming-email">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                      <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 float-left cricket-refer-your-code">
+                        <p>Your Refferal Code:</p>
+                      </div>
+                      <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 float-left cricket-refer-code-name cricket-refer-counter-code">
+                        <p>vamsiucc001</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cricket-gaming-email">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                      <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 float-left cricket-refer-your-code">
+                        <p>Your Refferal Counter:</p>
+                      </div>
+                      <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 float-left cricket-refer-code-name">
+                        <p>6,500</p>
+                        <p><span style="color: #fff;">Members</span></p>	
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cricket-gaming-refer-bonus-title">
+                    <div class="cricket-gaming-refer-bonus-bg">
+                      <h2>Refferal Gifts</h2>
+                    </div>
+                  </div>
+                  <div class="cricket-refer-gifts">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove cricket-refer-gifts-ss">
+                      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 float-left padding-remove cricket-ss-images">
+                        <img src="images/refer/ss-logo.jpg">
+                      </div>
+                      <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 float-left padding-remove cricket-ss-text">
+                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 float-left padding-remove cricket-ss-cricket-kit">
+                          <h2>SS Cricket Kit</h2>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 float-left cricket-refferal-members">
+                          <h4>5,000</h4>
+                          <p>Members</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 float-left padding-remove cricket-ss-button">
+                        <button class="btn">Claim</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cricket-refer-gifts">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove cricket-refer-gifts-ss">
+                      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 float-left padding-remove cricket-ss-images">
+                        <img src="images/refer/IPL-logo.jpg">
+                      </div>
+                      <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 float-left padding-remove cricket-ss-text">
+                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 float-left padding-remove cricket-ss-cricket-kit">
+                          <h2>IPL 2018 Tickets</h2>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 float-left cricket-refferal-members">
+                          <h4>1,500</h4>
+                          <p>Members</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 float-left padding-remove cricket-ipl-button">
+                        <button class="btn">Claim</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cricket-refer-gifts">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove cricket-refer-gifts-ss">
+                      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 float-left padding-remove cricket-ss-images">
+                        <img src="images/refer/pvr-logo.jpg">
+                      </div>
+                      <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 float-left padding-remove cricket-ss-text">
+                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 float-left cricket-ss-cricket-kit padding-remove">
+                          <h2>PVR Movie Tickets</h2>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 float-left cricket-refferal-members">
+                          <h4>5,00</h4>
+                          <p>Members</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 float-left padding-remove cricket-ipl-button">
+                        <button class="btn">Claim</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </ng-template>
+
+            <!-- <ng-template #content let-c="close" let-d="dismiss">
+              <div class="modal-header cricket-refer-header">
+                <h2>Refferal Bonus</h2>
+                <button type="button" class="cricket-refer-close" aria-label="Close" (click)="d('Cross click')">
+                  <img src="images/refer/refer-close.png">
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="form-group">
+                    <label for="dateOfBirth">Date of birth</label>
+                    <div class="input-group">
+                      <input id="dateOfBirth" class="form-control" placeholder="yyyy-mm-dd" name="dp" ngbDatepicker #dp="ngbDatepicker">
+                      <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" (click)="dp.toggle()" type="button">
+                          <img src="img/calendar-icon.svg" style="width: 1.2rem; height: 1rem; cursor: pointer;"/>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </ng-template> -->
+
+
+          </div>
+        </section>
+        <section class="col-lg-12 col-md-12 col-xs-12 col-xs-12 pad ding-remove">
+          <div class="cricket-game-matches">
+            <div class="cricket-net-practice">
+              <a href="player-make.html">
+                <img src="images/btn-net-practice.png">	
+              </a>
+            </div>
+            <div class="cricket-paly-match">
+              <a href="tournament.html">
+                <img src="images/play-match.png">
+              </a>
+            </div>	
+            <div class="cricket-challenges">
+              <a href="">
+                <img src="images/challenge-btn.png">
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+  </div>
+  <div class="cricket-main-bat">
+    <img src="images/pro-tip/bowler-logo.png" style="float: right;">
+  </div>
+</div>

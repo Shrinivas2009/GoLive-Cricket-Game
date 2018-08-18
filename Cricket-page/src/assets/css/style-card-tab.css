@@ -1,0 +1,70 @@
+/*.tabs {
+      position: relative;   
+      height: 400px;
+      clear: both;
+      margin: 0px 0;
+    }
+    .tab {
+    	width: 33.33%;
+      float: left;
+    }
+    .ui-checkbox, .ui-radio{
+    	width: 100% !important;
+    }
+    .ui-btn, label.ui-btn{
+    	border: none !important;
+    }
+    .tab label {
+      padding: 10px;
+      position: relative;
+      left: 1px; 
+    }
+    .tab [type=radio] {
+      display: none;   
+    }
+    .content {
+      position: absolute;
+      top: 28px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+    [type=radio]:checked ~ label {
+      border-bottom: 1px solid white;
+      z-index: 2;
+    }
+    [type=radio]:checked ~ label ~ .content {
+      z-index: 1;
+    }
+
+.ui-btn.ui-checkbox-off:after, .ui-btn.ui-checkbox-on:after, .ui-btn.ui-radio-off:after, .ui-btn.ui-radio-on:after {
+    display: block !important;
+    width: 18px !important;
+    height: 18px !important;
+    margin: -13px 0px 0 0px !important;
+}
+.ui-btn-icon-left:after, .ui-btn-icon-right:after, .ui-btn-icon-top:after, .ui-btn-icon-bottom:after, .ui-btn-icon-notext:after {
+     background-color: transparent !important; 
+    background-repeat: no-repeat;
+     -webkit-border-radius: 0 !important; 
+     border-radius: 0 !important; 
+}
+.ui-radio .ui-btn.ui-radio-on:after{
+	background-image: url(../images/checked.png) !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.ui-radio .ui-btn.ui-radio-on:after{
+	border-width: 1px !important;
+    border-style: solid !important;
+}
+.ui-checkbox-off:after, .ui-btn.ui-radio-off:after {
+    opacity: 1 !important;
+    border: 1px solid #fff !important;
+}
+.cricket-cards-chart-margin{
+	margin: 10px auto 0 !important;
+}*/
+.cricket-card-width-33-percent{
+	
+}

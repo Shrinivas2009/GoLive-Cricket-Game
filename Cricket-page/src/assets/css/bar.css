@@ -1,0 +1,42 @@
+#data-table {
+	display: none;
+}
+/*
+.bar span {
+	background: #fefefe url(../images/info-bg.png) 0 100% repeat-x;
+}
+*/
+.bar span {
+	background: rgba(0, 0, 0, 0);
+}
+.fig0, .fig8{
+	background: #83c7da; /* For browsers that do not support gradients */
+  /*background: -webkit-linear-gradient(left, #858585 , #323232); 
+  background: -o-linear-gradient(right, #858585 , #323232); 
+  background: -moz-linear-gradient(right, #858585 , #323232); 
+  background: linear-gradient(to right, #858585 , #323232); */
+}
+.fig1, .fig5, .fig9 {
+	background: #17b1ff; /* For browsers that do not support gradients */
+  /*background: -webkit-linear-gradient(left, #65C2E8 , #2075A8); 
+  background: -o-linear-gradient(right, #65C2E8 , #2075A8); 
+  background: -moz-linear-gradient(right, #65C2E8 , #2075A8); 
+  background: linear-gradient(to right, #65C2E8 , #2075A8); */
+}
+.fig2, .fig6 {
+	background: #ffc600; 
+  /*background: -webkit-linear-gradient(left, #EEA151 , #BF5915);
+  background: -o-linear-gradient(right, #EEA151 , #BF5915); 
+  background: -moz-linear-gradient(right, #EEA151 , #BF5915); 
+  background: linear-gradient(to right, #EEA151 , #BF5915); */
+}
+.fig3, .fig7 {
+	background: #d24cfe; /* Not support gradients */
+  /*background: -webkit-linear-gradient(left, #D64825 , #882F18);
+  background: -o-linear-gradient(right, #D64825 , #882F18);
+  background: -moz-linear-gradient(right, #D64825 , #882F18);
+  background: linear-gradient(to right, #D64825 , #882F18); */
+}
+.fig4{
+  background: #67eaff;
+}

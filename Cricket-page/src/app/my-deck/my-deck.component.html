@@ -1,0 +1,356 @@
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove cricket-gaming">
+  <div class=" cricket-gaming-background">
+    <header class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove cricket-gaming-header">
+      <div class="cricket-fixed-header">
+        <div class="cricket-gaming-heading">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 float-left padding-remove">
+            <div class="tournament-home">
+              <a routerLink="/main-page">
+                <button>
+                  <img src="images/SPR_HomeIcon.png">
+                </button>
+              </a>
+            </div>	
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 float-left padding-remove">
+            <div class=" cricket-golive-games">
+              <h1>MY DECK</h1>
+            </div>	
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 float-left cricket-gold-coin">
+            <h3>6000</h3>
+            <img src="images/header/coin.png" class="coins-image-right">
+          </div>					
+        </div>
+      </div>
+    </header>
+    <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove" style="top: 50px;">
+      <div class="tournament-background">
+        <div class="tournament-team-name">
+          <div class="col-lg-12 col-md-12 padding-remove ">
+            <div class="tournament-team-name-width">
+              
+            </div>
+            <div class="cricket-gaming-tournament">
+              <div class="cricket-myDeck-height cricket-myDeck-height-66">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove">
+                  <div class="cricket-card">
+                    <ul class="nav nav-tabs" role="tablist">
+                      <li *ngFor="let wallet of coinwallet; let first = first;" [ngClass]="{firstItem: first}"  
+                        role="presentation" class="accounts_li" [class.active]="selectedwallet===wallet" (click)="selectedwallet = wallet">
+                        <a  aria-controls="one" role="tab" data-toggle="tab">
+                          {{wallet}}
+                        </a>
+                      </li>
+                      <!-- <li role="presentation" class="cricket-bowling-click">
+                        <a href="#bowling" aria-controls="bowling" role="tab" data-toggle="tab">Bowling</a>
+                      </li> -->
+                    </ul>
+                    <div class="cricket-customize-detail">
+                      <div class="cricket-customize">
+                        <h2>Customize Your All-Rounder Desk</h2>
+                      </div>
+                      <div class="cricket-auto-select">
+                        <h2>Auto<br>Select</h2>
+                        <div class="cricket-customize-checkbox">
+                          <input type="checkbox" checked="checked">
+                          <span class="checkmark"></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-content" >
+                      <div *ngIf="selectedwallet === coinwallet[0]" role="tabpanel" class="tab-pane active" id="one" >
+                        <div class="cricket-myDeck-batting cricket-scroll-bar" id="centered">
+                          <ul class="cricket-mydeck-board">
+                            <li>
+                              <div class="cricket-batting-select cricket-display-table-inline cricket-width-30-percent cricket-myDeck-120-px"  id="common-card">
+                                <div class="cricket-mydeck-batting-select cricket-common-card-one">
+                                  <div class="cricket-common-card-two">
+                                    <div class="cricket-common-card-three ">
+                                      
+                                    </div>
+                                  </div>
+                                  <!-- <img src="images/mydeck/common-card.png"> -->
+                                </div>
+                                <div class="cricket-mydeck-batting-info">
+                                    <button>Info</button>
+                                  </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="cricket-batting-select cricket-display-table-inline cricket-width-30-percent cricket-myDeck-120-px">
+                                <div class="cricket-mydeck-batting-select cricket-rare-card-one">
+                                  <div class="cricket-rare-card-two">
+                                    <div class="cricket-rare-card-three">
+                                      
+                                    </div>
+                                  </div>
+                                  <!-- <img src="images/mydeck/common-card.png"> -->
+                                </div>
+                                <div class="cricket-mydeck-batting-info">
+                                  <button>Info</button>
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="cricket-batting-select cricket-display-table-inline cricket-width-30-percent cricket-myDeck-120-px">
+                                <div class="cricket-mydeck-batting-select cricket-epic-card-one">
+                                  <div class="cricket-epic-card-two">
+                                    <div class="cricket-epic-card-three">
+                                      
+                                    </div>
+                                  </div>
+                                  <!-- <img src="images/mydeck/common-card.png"> -->
+                                </div>
+                                <div class="cricket-mydeck-batting-info">
+                                  <button>Info</button>
+                                </div>
+                              </div>
+                            </li>
+                            <li>	
+                              <div class="cricket-batting-select cricket-display-table-inline cricket-width-30-percent cricket-myDeck-120-px">
+                                <div class="cricket-mydeck-batting-select cricket-legendary-card-one">
+                                  <div class="cricket-legendary-card-two">
+                                    <div class="cricket-legendary-card-three">
+                                      
+                                    </div>
+                                  </div>
+                                  <!-- <img src="images/mydeck/common-card.png"> -->
+                                </div>
+                                <div class="cricket-mydeck-batting-info">
+                                  <button>Info</button>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div  *ngIf="selectedwallet === coinwallet[1]" role="tabpanel" class="tab-pane active" id="two">
+                        <div class="cricket-myDeck-batting cricket-scroll-bar" id="forcecentered">
+                          <ul class="cricket-mydeck-board">
+                            <li>
+                              <div class="cricket-batting-select cricket-display-table-inline cricket-width-30-percent cricket-myDeck-120-px">
+                                <div class="cricket-mydeck-batting-select cricket-common-card-one">
+                                  <div class="cricket-common-card-two">
+                                    <div class="cricket-common-card-three">
+                                      
+                                    </div>
+                                  </div>
+                                  <!-- <img src="images/mydeck/common-card.png"> -->
+                                </div>
+                                <div class="cricket-mydeck-batting-info">
+                                  <button>Info</button>
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="cricket-batting-select cricket-display-table-inline cricket-width-30-percent cricket-myDeck-120-px">
+                                <div class="cricket-mydeck-batting-select cricket-rare-card-one">
+                                  <div class="cricket-rare-card-two">
+                                    <div class="cricket-rare-card-three">
+                                      
+                                    </div>
+                                  </div>
+                                  <!-- <img src="images/mydeck/common-card.png"> -->
+                                </div>
+                                <div class="cricket-mydeck-batting-info">
+                                  <button>Info</button>
+                                </div>
+                              </div>
+                            </li>
+                            <li>	
+                              <div class="cricket-batting-select cricket-display-table-inline cricket-width-30-percent cricket-myDeck-120-px">
+                                <div class="cricket-mydeck-batting-select cricket-epic-card-one">
+                                  <div class="cricket-epic-card-two">
+                                    <div class="cricket-epic-card-three">
+                                      
+                                    </div>
+                                  </div>
+                                  <!-- <img src="images/mydeck/common-card.png"> -->
+                                </div>
+                                <div class="cricket-mydeck-batting-info">
+                                  <button>Info</button>
+                                </div>
+                              </div>
+                            </li>
+                            <li>	
+                              <div class="cricket-batting-select cricket-display-table-inline cricket-width-30-percent cricket-myDeck-120-px">
+                                <div class="cricket-mydeck-batting-select cricket-legendary-card-one">
+                                  <div class="cricket-legendary-card-two">
+                                    <div class="cricket-legendary-card-three">
+                                      
+                                    </div>
+                                  </div>
+                                  <!-- <img src="images/mydeck/common-card.png"> -->
+                                </div>
+                                <div class="cricket-mydeck-batting-info">
+                                  <button>Info</button>
+                                </div>
+                              </div>
+                            </li>	
+                          </ul>
+                        </div>
+                      </div>
+                    </div>          
+                  </div>
+                </div>   
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove">
+                  <div class="cricket-card">
+                    <ul class="nav nav-tabs" role="tablist">
+                      <li *ngFor="let cards of cardSelected; let first = first;" [ngClass]="{firstItem: first}"  
+                        role="presentation" class="accounts_li" [class.active]="selectedCard===cards" (click)="selectedCard = cards">
+                        <a  aria-controls="one" role="tab" data-toggle="tab">
+                          {{cards}}
+                        </a>
+                      </li>
+                    </ul>
+
+                      <div class="tab-content">
+                        <div *ngIf="selectedCard ===cardSelected[0]" role="tabpanel" class="tab-pane active" id="three">
+                          <div class="cricket-myDeck-batting cricket-scroll-bar" id="oneperframe">
+                            <ul class="cricket-mydeck-board">
+                              <li>
+                                <div class="cricket-batting-select cricket-display-table-inline cricket-width-30-percent cricket-myDeck-120-px" id="common-card">
+                                  <div class="cricket-mydeck-batting-select cricket-common-card-one">
+                                    <div class="cricket-common-card-two">
+                                      <div class="cricket-common-card-three">
+                                        
+                                      </div>
+                                    </div>
+                                    <!-- <img src="images/mydeck/common-card.png"> -->
+                                  </div>
+                                  <div class="cricket-mydeck-batting-info">
+                                    <button>Info</button>
+                                  </div>
+                                </div>
+                              </li>
+                              <li>	
+                                <div class="cricket-batting-select cricket-display-table-inline cricket-width-30-percent cricket-myDeck-120-px">
+                                  <div class="cricket-mydeck-batting-select cricket-rare-card-one">
+                                    <div class="cricket-rare-card-two">
+                                      <div class="cricket-rare-card-three">
+                                        
+                                      </div>
+                                    </div>
+                                    <!-- <img src="images/mydeck/common-card.png"> -->
+                                  </div>
+                                  <div class="cricket-mydeck-batting-info">
+                                    <button>Info</button>
+                                  </div>
+                                </div>
+                              </li>
+                              <li>	
+                                <div class="cricket-batting-select cricket-display-table-inline cricket-width-30-percent cricket-myDeck-120-px">
+                                  <div class="cricket-mydeck-batting-select cricket-epic-card-one">
+                                    <div class="cricket-epic-card-two">
+                                      <div class="cricket-epic-card-three">
+                                        
+                                      </div>
+                                    </div>
+                                    <!-- <img src="images/mydeck/common-card.png"> -->
+                                  </div>
+                                  <div class="cricket-mydeck-batting-info">
+                                    <button>Info</button>
+                                  </div>
+                                </div>
+                              </li>
+                              <li>	
+                                <div class="cricket-batting-select cricket-display-table-inline cricket-width-30-percent cricket-myDeck-120-px">
+                                  <div class="cricket-mydeck-batting-select cricket-legendary-card-one">
+                                    <div class="cricket-legendary-card-two">
+                                      <div class="cricket-legendary-card-three">
+                                        
+                                      </div>
+                                    </div>
+                                    <!-- <img src="images/mydeck/common-card.png"> -->
+                                  </div>
+                                  <div class="cricket-mydeck-batting-info">
+                                    <button>Info</button>
+                                  </div>
+                                </div>
+                              </li>	
+                            </ul>
+                          </div>
+                        </div>
+                        <div *ngIf="selectedCard === cardSelected[1]" role="tabpanel" class="tab-pane" id="four">
+                          <div class="cricket-myDeck-batting cricket-scroll-bar" id="cyclepages">
+                            <ul class="cricket-mydeck-board">
+                              <li>
+                              <div class="cricket-batting-select cricket-display-table-inline cricket-width-30-percent cricket-myDeck-120-px">
+                                  <div class="cricket-mydeck-batting-select cricket-common-card-one">
+                                    <div class="cricket-common-card-two">
+                                      <div class="cricket-common-card-three">
+                                        
+                                      </div>
+                                    </div>
+                                    <!-- <img src="images/mydeck/common-card.png"> -->
+                                  </div>
+                                  <div class="cricket-mydeck-batting-info">
+                                    <button>Info</button>
+                                  </div>
+                                </div>
+                              </li>
+                              <li>
+                                <div class="cricket-batting-select cricket-display-table-inline cricket-width-30-percent cricket-myDeck-120-px">
+                                  <div class="cricket-mydeck-batting-select cricket-rare-card-one">
+                                    <div class="cricket-rare-card-two">
+                                      <div class="cricket-rare-card-three">
+                                        
+                                      </div>
+                                    </div>
+                                    <!-- <img src="images/mydeck/common-card.png"> -->
+                                  </div>
+                                  <div class="cricket-mydeck-batting-info">
+                                    <button>Info</button>
+                                  </div>
+                                </div>
+                              </li>
+                              <li>
+                                <div class="cricket-batting-select cricket-display-table-inline cricket-width-30-percent cricket-myDeck-120-px">
+                                  <div class="cricket-mydeck-batting-select cricket-epic-card-one">
+                                    <div class="cricket-epic-card-two">
+                                      <div class="cricket-epic-card-three">
+                                        
+                                      </div>
+                                    </div>
+                                    <!-- <img src="images/mydeck/common-card.png"> -->
+                                  </div>
+                                  <div class="cricket-mydeck-batting-info">
+                                    <button>Info</button>
+                                  </div>
+                                </div>
+                              </li>
+                              <li>	
+                                <div class="cricket-batting-select cricket-display-table-inline cricket-width-30-percent cricket-myDeck-120-px">
+                                  <div class="cricket-mydeck-batting-select cricket-legendary-card-one">
+                                    <div class="cricket-legendary-card-two">
+                                      <div class="cricket-legendary-card-three">
+                                        
+                                      </div>
+                                    </div>
+                                    <!-- <img src="images/mydeck/common-card.png"> -->
+                                  </div>
+                                  <div class="cricket-mydeck-batting-info">
+                                    <button>Info</button>
+                                  </div>
+                                </div>
+                              </li>	
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div> 
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove cricket-myDeck-btn">
+                  <div class="cricket-position-fixed">
+                    <button class="btn center-block">Continue</button>
+                  </div>
+                </div>
+              </div>
+            </div>      
+          </div>      
+        </div>
+      </div>
+    </section>      
+  </div>
+</div>

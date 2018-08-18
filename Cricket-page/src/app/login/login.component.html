@@ -1,0 +1,61 @@
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove cricket-gaming">
+  <div class="cricket-gaming-background">
+    <div class="cricket-gaming-login">
+      <div class="cricket-gaming-login-board">
+        <div class="cricket-gaming-login-header">
+          <h2>LOGIN</h2>
+        </div>
+        <div class="cricket-gaming-login-section">
+          <!-- <form (submit)="loginUser($event)"> -->
+          <form (ngSubmit)="onLogin()" novalidate>  
+            <div class="cricket-gaming-email">
+              <input type="text" name="username" placeholder="Username"  id="username" class="input-icon-mail" [(ngModel)]="user.username" required>
+            </div>
+            <div class="cricket-gaming-email">
+              <input type="password" name="password" placeholder="Password" id="password" class="input-icon-password" [(ngModel)]="user.password" required>
+            </div>
+            <div class="cricket-login-forget-password">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 float-left padding-remove cricket-gaming-login-checked">
+                <input type="checkbox" name="Stay signed in"><span>Stay signed in</span>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 float-left padding-remove cricket-gaming-login-forget" >
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove">
+                  <button (click)="open(forgetPassword)">Forget Password</button>
+                </div>
+              </div>
+              <ng-template #forgetPassword let-c="close" let-d="dismiss">
+                <div class="cricket-refer-header">
+                  <h2>Forget Password</h2>
+                  <button type="button" class="cricket-refer-close" aria-label="Close" (click)="d('Cross click')">
+                    <img src="images/refer/refer-close.png">
+                  </button>
+                </div>
+                <div class="modal-body">
+                  
+                  <div class="cricket-refer-body">
+                      <div class="cricket-gaming-login-section">
+                          <div class="cricket-gaming-email">
+                            <input type="text" name="" placeholder="Email" class="input-icon-mail">
+                          </div>
+                          <div class="cricket-gaming-login-button cricket-gaming-forget-button">
+                            <a href=""><button class="btn center-block">Submit</button></a>
+                          </div>
+                        </div>
+                    
+                  </div>
+  
+                </div>
+              </ng-template>
+            </div>
+            <div class="cricket-gaming-login-button">
+              <button md-button class="btn center-block" routerLink="/main-page" id="submit" >Login</button>
+            </div>
+            <div class="cricket-gaming-login-register">
+              <p>Don't have we account? <a routerLink="/register"><u>Register</u></a></p>
+            </div>
+          </form>  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

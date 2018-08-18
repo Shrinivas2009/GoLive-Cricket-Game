@@ -1,0 +1,127 @@
+.dashboard-profile-width-100-percent{
+    width: 100% !important;
+}
+.dashboard-profile-id{
+	width: 100%;
+    padding: 4px 5px;
+    margin: 6px 0 0 0;
+    border-radius: 4px;
+    border: none;
+}
+.cricket-dashboard-profile-content{
+    margin-top: 9px;
+}
+.cricket-dashboard-profile-list{
+    border-right: 2px solid #39dcfffa;
+}
+.dashboard-profile-go-btn button{
+	background-color: transparent;
+	background-image: url("../images/batting-btn.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 40%;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    margin: 6px 0 0px;
+    padding: 4px 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+.dashboard-profile-go-btn button:hover{
+	color: #fff;
+}
+.dashboard-profile-go-btn button:focus{
+	background-color: none;
+}
+.dashboard-tab-content{
+    padding:  0 0 !important;
+}
+.dashboard-display-block{
+    display: block !important;
+    width: 98%;
+    margin: 10px auto 0 !important;
+        border: 2px solid #000;
+}
+.cricket-gaming-team-row td{
+    padding: 5px 0 !important;
+    text-align: center;
+    font-weight: 700;
+    /*color: #fff;*/
+    background: rgba(242,246,248,1);
+background: -moz-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 50%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242,246,248,1)), color-stop(50%, rgba(216,225,231,1)), color-stop(51%, rgba(181,198,208,1)), color-stop(100%, rgba(224,239,249,1)));
+background: -webkit-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 50%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+background: -o-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 50%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+background: -ms-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 50%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+}
+.dashboard-display-card-list{
+    padding: 8px !important;
+}
+.dashboard-profile-card-width-arrange{
+    width: 98.4% !important;
+    margin: 0 auto !important;
+    position: relative;
+    left: 0.5px;
+}
+.dashboard-profile-cards-height{
+    height: -moz-calc(100vh - (446px));
+    height: -webkit-calc(100vh - (446px));
+    height: calc(100vh - (446px));
+    overflow-y: auto;
+    margin-bottom: 0;
+}
+.dashboard-padding-right-8px{
+    padding-right: 8px !important;
+}
+.dashboard-user-logo{
+    margin-top: 10px;
+}
+#myChart-wrapper{
+    /*width: 130px !important;*/
+    /*height: 170px !important;*/
+    /*margin: -10px auto 0;*/
+    /*float: left;*/
+    height: 235px !important;
+    /*width: 100%;*/
+    top: -60px;
+}
+#myChart-top{
+    /*height: 170px !important;*/
+}
+#myChart-graph-id0-path{
+    fill: transparent !important;
+}
+/*
+#myChart-svg{
+    height: 170px !important;
+}
+#myChart-main{
+    height: 170px !important;
+}*/
+#myChart-license-text{
+    display: none;
+}
+.dashboard-profile-coin{
+    width: 20px;
+    margin: 0 0 0 5px;
+}
+.cricket-profile-level-cards-list{
+       width: 30%;
+    top: 22% !important;
+    right: 35% !important;
+}
+.cricket-player-list-item th{
+    width: 33.33%;
+}
+.cricket-player-list-item td{
+    width: 33.33%;
+}
+.padding-bottom-31px{
+    padding-bottom: 31px !important;
+}
+.criccket-player-list-dropdown{
+    background-color: transparent;
+    border: 1px solid;
+}

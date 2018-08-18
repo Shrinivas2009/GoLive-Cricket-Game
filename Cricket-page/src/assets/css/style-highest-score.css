@@ -1,0 +1,39 @@
+.cricket-hg-score-run{
+	width: 17%;
+	float: left;
+	    text-align: center;
+	font-size: 12px;
+    font-weight: 700;
+}
+.cricket-hg-score-run h2{
+	margin: 0;
+	font-size: 12px;
+	line-height: 26px;
+	font-weight: 700;
+	color: #ffdf7f;
+	text-align: center;	
+}
+.cricket-hg-score-balls{
+	width: 17%;
+	float: left;
+	    text-align: center;
+	font-size: 12px;
+    font-weight: 700;
+}
+.cricket-hg-score-balls h2{
+	margin: 0;
+	font-size: 12px;
+	line-height: 26px;
+	font-weight: 700;
+	color: #ffdf7f;
+	text-align: center;	
+}
+.cricket-gaming-team-coins button{
+	background-image: url(../images/youwin/hight-score-add.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: none;
+    border-radius: 0;
+    padding: 15px;
+    width: 80%;
+}

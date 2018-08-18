@@ -1,0 +1,907 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+*{
+    margin:0px;
+    padding:0px;
+    height:auto;
+}
+body{
+        font-family: 'Microsoft New Tai Lue',  sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+}
+.padding-remove{
+    padding: 0 !important;
+}
+.clearfix{
+    clear: both;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.cricket-gaming{
+    background-image: url("./../images/hero-background.jpg");
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cricket-gaming-background{
+        overflow: hidden;
+    background-image: url("./../images/MainMenu.jpg");
+    height: 100%;
+    width: 30% !important;
+    margin: 0 auto;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.cricket-fixed-header{
+    background-image: url("./../images/header/header.png");
+    width: 30%;
+    position: fixed;
+    z-index: 99999;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 50px;
+}
+.cricket-gaming-heading{
+    width: 100%;
+}
+.coins-image{
+    width:24px;
+    float: left;
+}
+.cricket-trophy-coin h3{
+    margin: 0;
+    width: 60%;
+    float: left;
+    /*color: #e6c545;*/
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    padding:3px 5px 0;
+    text-shadow: 0px 0px 15px rgba(44, 89, 127, 0.85);
+	color: #ffcc66;
+}
+.cricket-gold-coin{
+	padding-top: 10px;
+}
+.cricket-float-right{
+    overflow: hidden;
+    position: absolute;
+    width: 50%;
+    right: 5px;
+}
+.coins-image-right{
+    width:22px;
+    float: right;
+}
+.coins-image-left{
+    width: 22px;
+    float: left !important;
+}
+.cricket-gold-coin h3{
+    margin: 0;
+    width: 69%;
+    /*float: right;*/
+    text-align: right;
+    /*color: #e6c545;*/
+    font-size: 18px;
+    font-weight: 700;
+    padding:3px 5px 0;
+    text-shadow: 0px 0px 15px rgba(44, 89, 127, 0.85);
+	color: #ffcc66;
+}
+.cricket-golive-games h1{
+    font-size: 18px;
+    color: #e6c545;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+    line-height: 42px;
+}
+.cricket-unlimited{
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+}
+.cricket-btn-left-section{
+	position: absolute;
+	width: 100%;
+}
+.cricket-btn-center-section{
+    position: absolute;
+    top: 0;
+    width: 14%;
+    margin: 0 44%
+}
+.cricket-btn-right-section{
+	position: absolute;
+	right: 0;
+	width: 100%;
+}
+.cricket-leader-board{
+	width: 30%;
+    top: 10px;
+    position: absolute;
+}
+.cricket-btn-team{
+	width: 25%;
+    top: 72px;
+    position: absolute;
+}
+.cricket-btn-mailing{
+    width: 20%;
+    top: 134px;
+    position: absolute;
+}
+.cricket-btn-friends{
+    width: 15%;
+    top: 195px;
+    position: absolute;    
+}
+.cricket-btn-achievements{
+    width: 15%;
+    top: 195px;
+    position: absolute;   
+    right: 0;
+    cursor: pointer;
+}
+.cricket-btn-deck{
+	width: 30%;
+    top: 10px;
+    right: 0;
+    position: absolute;
+}
+.cricket-btn-shop{
+	width: 25%;
+    top: 72px;
+    right: 0;
+    position: absolute;
+}
+.cricket-btn-setting{
+    width: 20%;
+    top: 134px;
+    right: 0;
+    position: absolute;
+}
+.cricket-game-matches{
+	width: 94%;
+    overflow: hidden;
+    display: block;
+    margin: 22% auto 0;
+}
+.cricket-net-practice{
+	width: 28%;
+	float: left;
+	margin: 10% auto 0;
+}
+.cricket-paly-match{
+	width: 44%;
+	float: left;
+}
+.cricket-challenges{
+	width: 28%;
+	float: left;
+	margin: 10% auto 0;
+}
+.cricket-gaming-home-page{
+    width: 100%;
+    overflow: hidden;
+        overflow: hidden;
+    
+    height: 100vh;
+    
+    margin: 0 auto;
+
+}
+
+.cricket-width-96-per{
+    width: 96%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.cricket-team-roster h2{
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    bottom: 27px;
+    right: 88px;
+    font-style: italic;
+}
+
+.cricket-tournament-invites{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+.cricket-tournament h2{
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+        bottom: 20px;
+    right: 22px;
+    font-style: italic;
+}
+.cricket-invites h2{
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    bottom: 20px;
+    right: 22px;
+    font-style: italic;
+}
+.cricket-status-auction{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 5px !important;
+}
+.cricket-status h2{
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+        bottom: 20px;
+    right: 22px;
+    font-style: italic;
+}
+.cricket-auction h2{
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+        bottom: 20px;
+    right: 22px;
+    font-style: italic;
+}
+.cricket-scroll-bar::-webkit-scrollbar {
+    width: 5px;
+    background:transparent;
+    height: 5px;
+}
+
+.cricket-scroll-bar::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 255, 0);
+    border-radius: 50px;
+}
+
+.cricket-scroll-bar::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.01);
+    background: transparent;
+}
+/************************ppopup**************************/
+.modal-dialog{
+    width: 30% !important;
+    margin: 0 auto 0 !important;
+    z-index: 9999999 !important;
+}
+.modal-content{
+    background-color: transparent !important;
+    background-image: url(../images/refer/refer-popup.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    clear: both;
+}
+.modal-header{
+    border-bottom: none !important;
+}
+.modal-header h4{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+.cricket-popup-body{
+    padding: 0;
+}
+.cricket-refer-header{
+    background-image: url(../images/login/login-header.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 50px;
+    width: 98%;
+    margin: 4px auto 0;
+    position: relative;
+}
+.cricket-refer-header h2{
+    width: 100%;
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #e6c545;
+    line-height: 42px;
+}
+.cricket-refer-close{
+    width: 10%;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    background-color: transparent;
+    border-color: transparent;
+}
+.cricket-refer-close button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.cricket-gaming-email{
+    background-image: url(../images/login/email.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 42px;
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+.cricket-refer-body{
+    overflow: hidden;
+    padding: 15px;
+}
+.cricket-refer-your-code p{
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding: 0 0 0 5px;
+        text-shadow: 0px 0px 30px rgba(6, 133, 249, 0.95);
+}
+.cricket-refer-code-name p{
+    color: #7aff00;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding: 0 10px 0 0px;
+    text-align: center;    
+}
+.cricket-refer-counter-code p{
+    text-align: right;
+    line-height: 40px;
+}
+.cricket-gaming-refer-bonus-title{
+    overflow: hidden;
+}
+.cricket-gaming-refer-bonus-bg{
+    background-image: url(../images/tournament-head.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 80%;
+    height: 42px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.cricket-gaming-refer-bonus-bg h2{
+    font-size: 22px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 700;
+    margin: 0;
+    color: #ffe699;
+    font-family: 'Calibri' !important;
+    line-height: 42px;
+    text-shadow: 0px 0px 30px rgba(249, 66, 14, 0.95);
+}
+.cricket-refer-gifts{
+    border: 2px solid #ffaa00;
+    overflow: hidden;
+    border-radius: 3px;
+    margin: 15px 0 0;
+}
+.cricket-ss-images{
+    border: 2px solid #1e2f4a;
+}
+.cricket-ss-button button{
+    background-image: url(../images/refer/ss-btn.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Calibri' !important;
+    font-style: italic;
+     box-shadow: 0px 2px #000000;
+     padding: 15% 0;
+    text-shadow: 2px 0 0 #4d2d00, -2px 0 0 #4d2d00, 0 2px 0 #4d2d00, 0 -2px 0 #4d2d00, 1px 1px #4d2d00, -1px -1px 0 #4d2d00, 1px -1px 0 #4d2d00, -1px 1px 0 #4d2d00;
+}
+.cricket-ss-button button:hover{
+    color: #fff;
+}
+.cricket-ipl-button button{
+    background-image: url(../images/refer/ipl-btn.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Calibri' !important;
+    font-style: italic;
+     box-shadow: 0px 2px #000000;
+     padding: 15% 0;
+    text-shadow: 2px 0 0 #004701, -2px 0 0 #004701, 0 2px 0 #004701, 0 -2px 0 #004701, 1px 1px #004701, -1px -1px 0 #004701, 1px -1px 0 #004701, -1px 1px 0 #004701;
+}
+.cricket-ipl-button button:hover{
+    color: #fff;
+}
+.cricket-ss-text{
+    border-left: 2px solid #ffaa00;
+    overflow: hidden;
+    background-color: #354767; 
+}
+.cricket-ss-cricket-kit h2{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: italic;
+    color: #fff;
+    font-family: 'Calibri' !important;
+        line-height: 60px;
+
+}
+.cricket-refferal-members h4{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: italic;
+    color: #ffbf00;
+    font-family: 'Calibri' !important;
+        line-height: 36px;
+}
+.cricket-refferal-members p{
+    margin: 0;
+    font-size: 12px;
+    font-weight: 700;
+    font-style: italic;
+    color: #fff;
+    font-family: 'Calibri' !important;
+        line-height: 12px;
+}
+/*.cricket-popup-head{
+    background-image: url(../images/tournament-head.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    clear: both;    
+}
+.cricket-popup-head h2{
+    margin: 0;
+    font-size: 18px;
+    color: #ffe699;
+    font-weight: 700;
+        padding: 10px 0;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 0px 0px 20px rgba(146, 55, 26, 0.85);
+}
+.cricket-popup-slider{
+    margin-bottom: 40px;
+}
+.cricket-popup-slider h2{
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0px 0px 10px rgba(35, 80, 122, 0.75);  
+    font-style: italic;
+}
+
+.cricket-popup-send-button button{
+    background-image: url(../images/send-popup.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    clear: both;    
+    color: #fff;
+    font-size: 20px;
+    padding: 15px 45px !important;
+    font-weight: 700;
+    border-radius: 0 !important;
+    border: none !important;
+    outline: none;
+    text-shadow: 2px 2px 4px #000000;
+}
+.cricket-popup-send-button button:hover{
+    color: #fff !important;
+}*/
+/******************Second popup********************/
+.cricket-probress-bar-one{
+    width: 90%;
+    margin: 0 auto 40px;
+    /*margin-bottom: 20px;*/
+}
+.cricket-probress-bar-one h3{
+         margin-top: 10px; 
+    font-size: 14px;
+    color: #4eb3e6;
+    font-weight: 700;
+}
+.cricket-probress-bar-two{
+    width: 90%;
+    margin: 0 auto 20px;
+    /*margin-bottom: 20px;*/
+}
+.cricket-probress-bar-two h3{
+         margin-top: 10px; 
+    font-size: 14px;
+    color: #6ed410;
+    font-weight: 700;
+}
+.audio-progress {
+  height: 10px;
+  width: 100%;
+  background-color: #C0C0C0;
+}
+.audio-progress .bar {
+  height: 100%;
+  background-color: #009af0;
+}
+
+#audio-progress-handle {
+  display: block;
+  position:absolute;
+  z-index: 1;
+  margin-top: -8px;
+  margin-left: -10px;
+  width: 25px;
+  height: 25px;
+  /*border: 4px solid #D3D5DF;*/
+  /*border-top-color: #D3D5DF;*/
+  /*border-right-color: #D3D5DF;*/
+  transform: rotate(45deg);
+  border-radius: 100%;
+    background-image: url("../images/btn/setting-ball.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  /*background-color: #fff;*/
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .2);
+  cursor:pointer;
+}
+.audio-progress2 {
+  height: 10px;
+  width: 100%;
+  background-color: #C0C0C0;
+}
+.audio-progress2 .bar2 {
+  height: 100%;
+  background-color: #6ed410;
+}
+
+#audio-progress-handle2 {
+  display: block;
+  position:absolute;
+  z-index: 1;
+  margin-top: -8px;
+  margin-left: -10px;
+  width: 25px;
+  height: 25px;
+  /*border: 4px solid #D3D5DF;*/
+  /*border-top-color: #D3D5DF;*/
+  /*border-right-color: #D3D5DF;*/
+  transform: rotate(45deg);
+  border-radius: 100%;
+    background-image: url("../images/btn/setting-ball.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  /*background-color: #fff;*/
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .2);
+  cursor:pointer;
+}
+.draggable {
+  float: left; margin: 0 10px 10px 0;
+}
+.cricket-progress-bar-title h2{
+    margin: 8px 0 0 0;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+
+}
+.cricket-update-profile, .cricket-help-profile, .cricket-signout-profile{
+    margin: 20px 0;
+}
+.cricket-update-profile button{
+    background-color: transparent;
+    background-image: url("../images/setting/update.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 0;
+    font-weight: 700;
+    color: #fff;
+}
+.cricket-help-profile button{
+    background-color: transparent;
+    background-image: url("../images/continue.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 0;
+    font-weight: 700;
+    color: #fff;    
+}
+.cricket-signout-profile button{
+    background-color: transparent;
+    background-image: url("../images/continue.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 0;
+    font-weight: 700;
+    color: #fff;        
+}
+/*.progressbar {
+        width: 100%;
+       background-color: #C0C0C0;
+    }
+.bar {
+    height: 10px;
+    }
+.progress-slide {
+   background-color: #6ed410!important;
+    height: 100% !important;
+
+}*/
+
+
+
+.model-dialog-setting{
+    margin: 10% auto 0 !important;
+}
+.cricket-setting-slider{
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+}
+.modal-content-setting{
+    height: 52vh;
+}
+
+/*************************************************/
+.cricket-main-bat{
+    width: 35%;
+    float: left;
+    position: relative;
+    top: 10%;
+}
+/*.cricket-main-ball{
+    width: 35%;
+    float: left;
+    position: relative;
+    top: 10%;
+}*/
+.cricket-main-center{
+    width: 30%;
+    float: left;
+}
+/***********************end popup***************/
+@media (min-width: 768px) and (max-width: 1024px){
+    .cricket-fixed-header {
+        width: 100%;
+    }
+    .cricket-gaming-background{
+        width: 100% !important;
+        /*height: -moz-calc(100vh - (128px));
+        height: -webkit-calc(100vh - (128px));
+        height: calc(100vh - (128px));
+        overflow-y: auto;*/
+    }
+    .cricket-gaming-home-page{
+        height: -moz-calc(100% - (128px));
+        height: -webkit-calc(100% - (128px));
+        height: calc(100% - (128px));
+        overflow-y: auto;    
+    }
+    .cricket-team-roster h2 {
+        right: 67px;
+        font-size: 11px;
+    }
+    .cricket-tournament h2 {
+        font-size: 11px;
+        right: 16px;
+        bottom: 18px;
+    }
+    .cricket-invites h2 {
+        font-size: 11px;
+        bottom: 18px;
+    }
+    .cricket-auction h2 {
+        font-size: 11px;
+        bottom: 18px;
+        right: 15px;
+    }
+    .team-roster1{
+        width: 100%;
+        height: 20vh;
+    }
+    .team-roster2{
+        width: 98%;
+        height: 20vh;    
+    }
+    .team-roster3{
+        width: 98%;
+        height: 20vh;
+        float: right;
+    }
+    .team-roster4{
+        width: 100%;
+        height: 20vh;
+    }
+    .team-roster5{
+        width: 98%;
+        height: 20vh;
+        float: right;
+    }
+}
+@media (min-width: 601px) and (max-width: 767px){
+    .cricket-fixed-header {
+        width: 100%;
+    }
+    .cricket-gaming-background{
+        width: 100% !important;
+    }
+    .cricket-team-roster h2 {
+        right: 67px;
+        font-size: 11px;
+    }
+    .cricket-tournament h2 {
+        font-size: 11px;
+        right: 16px;
+        bottom: 18px;
+    }
+    .cricket-invites h2 {
+        font-size: 11px;
+        bottom: 18px;
+    }
+    .cricket-auction h2 {
+        font-size: 11px;
+        bottom: 18px;
+        right: 15px;
+    }
+    .team-roster1{
+        width: 100%;
+        height: 20vh;
+    }
+    .team-roster2{
+        width: 98%;
+        height: 20vh;    
+    }
+    .team-roster3{
+        width: 98%;
+        height: 20vh;
+        float: right;
+    }
+    .team-roster4{
+        width: 100%;
+        height: 20vh;
+    }
+    .team-roster5{
+        width: 98%;
+        height: 20vh;
+        float: right;
+    }
+}
+@media (min-width: 480px) and (max-width: 600px){
+    .cricket-fixed-header {
+        /*background-image: url("../images/header.jpg");*/
+        width: 100%;
+    }
+    .cricket-gaming-background{
+        width: 100% !important;
+    }
+    .cricket-team-roster h2 {
+        right: 67px;
+        font-size: 11px;
+    }
+    .cricket-tournament h2 {
+        font-size: 11px;
+        right: 16px;
+        bottom: 18px;
+    }
+    .cricket-invites h2 {
+        font-size: 11px;
+        bottom: 18px;
+    }
+    .cricket-auction h2 {
+        font-size: 11px;
+        bottom: 18px;
+        right: 15px;
+    }
+    .team-roster1{
+        width: 100%;
+        height: 20vh;
+    }
+    .team-roster2{
+        width: 98%;
+        height: 20vh;    
+    }
+    .team-roster3{
+        width: 98%;
+        height: 20vh;
+        float: right;
+    }
+    .team-roster4{
+        width: 100%;
+        height: 20vh;
+    }
+    .team-roster5{
+        width: 98%;
+        height: 20vh;
+        float: right;
+    }
+    .cricket-unlimited {
+        width: 80%;
+    }
+}
+@media (min-width: 320px) and (max-width: 479px){
+    .cricket-fixed-header {
+        /*background-image: url("../images/header.jpg");*/
+        width: 100%;
+    }
+    .cricket-gaming-background{
+        width: 100% !important;
+    }
+    .cricket-trophy-coin {
+        padding-top: 9px;
+    }
+    .cricket-trophy-coin h3 {
+        font-size: 14px;
+    }
+    .cricket-golive-games h1 {
+        font-size: 14px;
+    }
+    .cricket-golive-games {
+        padding-top: 12px !important;
+    }
+    .cricket-team-roster h2 {
+        right: 67px;
+        font-size: 11px;
+    }
+    .cricket-tournament h2 {
+        font-size: 11px;
+        right: 16px;
+        bottom: 18px;
+    }
+    .cricket-invites h2 {
+        font-size: 11px;
+        bottom: 18px;
+    }
+    .cricket-auction h2 {
+        font-size: 11px;
+        bottom: 18px;
+        right: 15px;
+    }
+    .team-roster1{
+        width: 100%;
+        /*height: 20vh;*/
+    }
+    .team-roster2{
+        width: 98%;
+        /*height: 20vh;    */
+    }
+    .team-roster3{
+        width: 98%;
+        /*height: 20vh;*/
+        float: right;
+    }
+    .team-roster4 {
+        width: 98%;
+        /*height: 20vh;*/
+    }
+    .team-roster5{
+        width: 98%;
+        /*height: 20vh;*/
+        float: right;
+    }
+    .cricket-unlimited {
+        width: 80%;
+    }
+}

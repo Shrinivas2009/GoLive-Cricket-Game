@@ -1,0 +1,221 @@
+.cricket-dashboard-width-98{
+	width: 98% !important;
+	margin: 0 auto;
+	float: none !important;
+}
+.padding-left-remove{
+	padding-left: 0 !important;
+}
+.cricket-dashboard-width-100{
+	width: 100% !important;
+}
+.cricket-dashboard-dropdown{
+	padding: 7px 4px 5px;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.cricket-dashboard-dropdown-content{
+	padding: 7px 5px;
+}
+.cricket-dashboard-dropdown-menu{
+	position: absolute !important;
+	top: 94% !important;
+	right: 5% !important;
+}
+.dashboard-caret{
+	float: right;
+	margin-top: 6px;
+	font-size: 15px;
+}
+.cricket-gaming-from-date{
+	width: 25% !important;
+	font-size: 10px !important;
+	float: none !important;
+}
+.cricket-gaming-to-date{
+	width: 25% !important;
+	font-size: 10px !important;	
+	float: none !important;
+}
+.cricket-gaming-match-average{
+	width: 25% !important;
+	font-size: 10px !important;
+	float: none !important;
+}
+.cricket-gaming-match-total-player{
+	width: 25% !important;
+	font-size: 10px !important;
+	float: none !important;
+}
+td.cricket-gaming-from-date h2, td.cricket-gaming-to-date h2, td.cricket-gaming-match-average h2, td.cricket-gaming-match-total-player h2{
+	color: #333 !important;
+}
+.cricket-gaming-average-height{
+	height: -moz-calc(100vh - (145px)) !important;
+    height: -webkit-calc(100vh - (145px)) !important;
+    height: calc(100vh - (145px)) !important;
+}
+.canvasjs-chart-credit{
+	display: none !important;
+}
+.canvasjs-chart-canvas{
+	border-radius: 6px;
+}
+.cricket-bg-dashboard{
+	background-image: url("../images/refer/refer-popup.png");
+    /*height: 100vh;*/
+    /*width: 30% !important;*/
+    /*margin: 0 auto;*/
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.cricket-24-hour-chart-bg{
+	width: 95%;
+	margin: 40px auto 0;
+}
+.cricket-peak-hour-header{
+
+}
+.cricket-peak-hour-header h1{
+	margin: 0;
+	text-align: center;
+	color: #fff;
+	font-family: 'Calibri' !important;
+	font-weight: 700;
+	font-size: 30px;
+	font-style: italic;
+}
+.dashboard-calender{
+	position: relative;
+}
+.calender{
+	position: absolute;
+	right: 4px;
+    top: 12px;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    background: #fff;
+}
+#myChart{
+	width: 100%;
+	height: 100%;
+}
+.dashboard-profile-go-btn button{
+	background-color: transparent;
+	background-image: url("../images/batting-btn.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 86%;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    margin: 7px 0 0px;
+    padding: 4px 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+.cricket-cards-using-persons{
+	width: 85% !important;
+	margin-top: 8px !important;
+}
+.cricket-cards-chart-bg {
+    width: 95%;
+    margin: 40px auto 0;
+}
+#myChart-graph-id0-path {
+    fill: transparent !important;
+}
+#myChart-license-text{
+    display: none;
+}
+.zc-scale-item{
+	color: #fff;
+	fill: #fff;
+	/*stroke: #fff;*/
+	font-weight: 100 !important;
+}
+.zc-scale-item tspan{
+	color: #fff !important;
+	fill: #fff !important;
+}
+#myChart-text text{
+	color: #fff !important;
+}
+.common{
+	width: 10px;
+	height: 10px;
+	background: #83c7da;
+	    padding: 0px 8px;
+    margin: 0 5px 0 0;
+}
+.uncommon{
+	width: 10px;
+	height: 10px;
+	background: #67eaff;
+	    padding: 0px 8px;
+    margin: 0 5px 0 0;
+}
+.legendary{
+	width: 10px;
+	height: 10px;
+	background: #ffc600;
+	    padding: 0px 8px;
+    margin: 0 5px 0 0;
+}
+.epic{
+	width: 10px;
+	height: 10px;
+	background: #d24cfe;
+	    padding: 0px 8px;
+    margin: 0 5px 0 0;
+}
+.rare{
+	width: 10px;
+	height: 10px;
+	background: #17b1ff;
+	    padding: 0px 8px;
+    margin: 0 5px 0 0;
+}
+.cricket-gaming-tournament p{
+	/*text-align: center;*/
+	color: #fff;
+	margin-top: 5px;
+}
+.cricket-bar-chart-radio-list{
+	overflow: hidden;
+	margin-top: 8px;
+}
+.cricket-bar-chart-radio-list li{
+	width: 33.33%;
+	float: left;
+}
+.cricket-bar-chart-radio-list input[type=radio] {
+    border: 1px solid #47a8f1 !important;
+    padding: 0.5em;
+    -webkit-appearance: none;
+    position: relative;
+    top: 3px;
+    margin: 0 5px 0 0; 
+}
+.cricket-bar-chart-radio-list input[type=radio]:checked{
+    background: url(../images/checked.png) no-repeat center center !important;
+    background-size: 9px 9px;
+}
+.cricket-bar-chart-radio-list input[type=radio]:focus {
+  outline-color: transparent;
+}
+.cricket-bar-chart-radio-display-none{
+	display: none !important;
+}
+.cricket-radio-batting-bowling{
+	color: #fff !important;
+	position: relative;
+    top: -4px;
+    left: 20px;
+    text-decoration: none;
+}

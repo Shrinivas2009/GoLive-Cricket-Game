@@ -1,0 +1,45 @@
+.cricket-pro-tips-background{
+	background-image: url(../images/pro-tip/pro-bg.jpg);
+}
+.cricket-pro-tips-header{
+	width: 60%;
+	margin: 10% auto 0;
+}
+.cricket-pro-tips-players-logo{
+	width: 100%;
+	padding-top: 20%;
+}
+.cricket-pro-tips-light{
+	text-align: center;
+}
+.cricket-pro-tips-light h2{
+	color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 24px 0 0;
+    font-family:  'Microsoft New Tai Lue';
+	text-shadow: 0px 2px 7px rgba(0, 0, 0, 0.85);
+}
+.light{
+	width: 25%;
+    position: relative;
+    left: 28px;
+    top: -4px;
+}
+.cricket-pro-tips-strong{
+	background-image: url(../images/pro-tip/pro-light-bg.png);
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 6px 0;
+}
+.cricket-pro-tips-strong h2{
+	color: #ffe67a;
+	font-size: 16px;
+	margin: 0;
+	font-weight: 700;
+	text-align: center;
+	font-family: 'Microsoft New Tai Lue';
+}
+.bat{
+	width: 8%;
+}

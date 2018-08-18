@@ -1,0 +1,134 @@
+.cricket-day-bonus-bg{
+	position: relative;
+    top: -100%;
+    background-image: url(../images/day-bonus/day-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 30%;
+    height: 100vh;
+    margin: 0 auto;
+    z-index: 999999;
+}
+.cricket-day-bonus{
+	padding: 15px;
+	overflow: hidden;
+	width: 100%;
+}
+.cricket-bonus-header{
+	overflow: hidden;
+	width: 80%;
+	margin: 30px auto 0;
+}
+.cricket-bonus-header-title{
+	background-image: url(../images/day-bonus/bonus-header.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 82%;
+    height: 40px;
+    float: left;
+    /*margin: 0 auto;*/
+}
+.cricket-bonus-header-title h2{
+	margin: 0;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 700;
+	color: #fff;
+	font-style: italic;
+	line-height: 36px;
+	font-family: 'Calibri' !important;
+}
+.cricket-bonus-header-btn-close{
+	width: 12%;
+	height: 36px;
+	float: left;
+	border: 2px solid #e29015;
+	    margin: 2px 0 0 10px;
+}
+.cricket-bonus-header-btn-close p{
+	text-align: center;
+	color: #e29114;
+	margin-bottom: 0;
+	font-size: 24px;
+	text-shadow: 0px 0px 10px rgba(218, 76, 13, 0.9);
+}
+.cricket-bonus-content{
+	width: 100%;
+	overflow: hidden;
+	padding-top: 20px;
+	position: relative;
+}
+.cricket-bonus-card{
+	cursor: pointer;
+	background-image: url(../images/day-bonus/day-coin.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 114px;
+}
+.cricket-bonus-card-head{
+	padding: 5px 0;
+}
+.cricket-bonus-card-head h2{
+	font-size: 14px;
+	margin: 0;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+	font-family: 'Microsoft Tai Le' !important;
+}
+.cricket-bonus-card-footer{
+	width: 75%;
+	position: absolute;
+	bottom: 0;
+}
+.cricket-bonus-card-footer h3{
+	font-size: 17px;
+	margin: 0;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+	font-family: 'Microsoft Tai Le' !important;	
+}
+.cricket-bonus-card-footer p{
+	font-size: 12px;
+	margin: 0;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+	font-family: 'Microsoft Tai Le' !important;		
+}
+.cricket-bonus-card-07{
+	background-image: url(../images/day-bonus/day-coin-07.png);
+}
+.cricket-bonus-card-14{
+	background-image: url(../images/day-bonus/day-coin-14.png);
+}
+.cricket-bonus-card-21{
+	background-image: url(../images/day-bonus/day-coin-21.png);
+}
+.cricket-bonus-card-28{
+	background-image: url(../images/day-bonus/day-coin-28.png);
+}
+.cricket-bonus-button{
+
+}
+.cricket-bonus-button button{
+	background-color: transparent;
+	background-image: url(../images/myDeck-btn.png);	
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+	color: #fff;
+	border-radius: 0;
+	border: none;
+	outline: none;
+	font-weight: 700;
+	font-family: 'Calibri' !important;
+	font-size: 20px;
+	padding: 10px 75px;
+	font-style: italic;
+	text-shadow: 2px 0 0 #4d2d00, -2px 0 0 #4d2d00, 0 2px 0 #4d2d00, 0 -2px 0 #4d2d00, 1px 1px #4d2d00, -1px -1px 0 #4d2d00, 1px -1px 0 #4d2d00, -1px 1px 0 #4d2d00;
+}
+.cricket-bonus-button button:hover{
+	color: #fff;
+	outline: none;
+}

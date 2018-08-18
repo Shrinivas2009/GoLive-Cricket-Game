@@ -1,0 +1,245 @@
+.cricket-gaming-login{
+	background-image: url(images/login/login-bg.jpg);
+	 background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+}
+.cricket-gaming-login-board{
+	background-image: url(images/login/bg-board.png);
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 60%;
+    width: 98%;
+    margin: 0 auto;
+    position: relative;
+    top: 25%;
+}
+.cricket-gaming-login-header{
+	background-image: url(images/login/login-header.png);
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* height: 11%; */
+    height: 42px;
+    width: 98%;
+    margin: 0 auto;
+    position: relative;
+    top: 1%;
+}
+.cricket-gaming-login-header h2 {
+    margin: 0;
+    color: #fff;
+    line-height: 38px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+.cricket-gaming-login-section {
+    overflow: hidden;
+    height: 100%;
+    width: 75%;
+    margin: 0 auto;
+    padding: 15% 0 0;
+}
+.input-icon-mail {
+    background-color: transparent;
+    background-image: url(images/login/mail-icon.png);
+    background-size: 17% 85%;
+    /* background-position: 7px 7px; */
+    background-repeat: no-repeat;
+    width: 80%;
+    border: none;
+    height: 84%;
+    outline: none;
+    margin: 3px 0 0 10%;
+    color: #fff;
+}
+.input-icon-mail::-webkit-input-placeholder {
+    text-align: center;
+    color: #fff;
+    /*font-size: 16px;*/
+    font-weight: 700;
+ }
+ 
+ .input-icon-mail::-moz-placeholder { /* Firefox 18- */
+    text-align: center;
+    color: #fff;
+    /*font-size: 16px;*/
+    font-weight: 700;  
+ }
+ 
+ .input-icon-mail::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;
+    color: #fff;
+    /*font-size: 16px;*/
+    font-weight: 700;  
+ }
+ .input-icon-mail::-ms-input-placeholder {  
+    text-align: center;
+    color: #fff;
+    /*font-size: 16px;*/
+    font-weight: 700; 
+ }
+ .input-icon-password {
+    background-color: transparent;
+    background-image: url(images/login/password-icon.png);
+    background-size: 14% 85%;
+    /* background-position: 7px 7px; */
+    background-repeat: no-repeat;
+    width: 80%;
+    border: none;
+    height: 84%;
+    margin: 6px 0 0 10%;
+    outline: none;
+    color: #fff;
+    position: relative;
+    top: 5px;
+}
+.input-icon-password::-webkit-input-placeholder {
+    text-align: center;
+    color: #fff;
+    /*font-size: 16px;*/
+    font-weight: 700;
+ }
+ 
+ .input-icon-password::-moz-placeholder { /* Firefox 18- */
+    text-align: center;
+    color: #fff;
+    /*font-size: 16px;*/
+    font-weight: 700;  
+ }
+ .input-icon-password::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;
+    color: #fff;
+    /*font-size: 16px;*/
+    font-weight: 700;  
+ }
+ .input-icon-password::-ms-input-placeholder {  
+    text-align: center;
+    color: #fff;
+    /*font-size: 14px;*/
+    font-weight: 700; 
+ }
+ .cricket-gaming-login-button{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.cricket-gaming-register-section{
+	padding: 11% 0 0;
+}
+.cricket-register-username{
+	margin: 0 0 7%;
+}
+.cricket-gaming-register-board{
+	height: 65%;
+    top: 23%;
+}
+.input-icon-user{
+	background-color: transparent;
+	background-image: url(images/login/user.png);
+	        background-size: 14% 100%;
+     background-repeat: no-repeat; 
+    width: 80%;
+    border: none;
+    height: 84%;
+    outline: none;
+    margin: 3px 0 0 10%;
+    color: #fff;
+    position: relative;
+    top: 3px;
+}
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background: transparent;
+}
+.input-icon-user::-webkit-input-placeholder {
+   text-align: center;
+   color: #fff;
+   font-weight: 700;
+}
+
+.input-icon-user::-moz-placeholder { /* Firefox 18- */
+   text-align: center;
+   color: #fff;
+   font-weight: 700;  
+}
+
+.input-icon-user::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;
+   color: #fff;
+   /*font-size: 16px;*/
+   font-weight: 700;  
+}
+
+.input-icon-user::-ms-input-placeholder {  
+   text-align: center;
+   color: #fff;
+   /*font-size: 16px;*/
+   font-weight: 700; 
+}
+.cricket-register-username .input-icon-mail{
+	    background-size: 17% 100%;
+}
+.input-icon-bonus{
+	background-color: transparent;
+	background-image: url(images/login/refer-bonus.png);
+    background-size: 14% 96%;
+    /* background-position: 7px 7px; */
+    background-repeat: no-repeat;
+    width: 80%;
+    border: none;
+    height: 84%;
+    outline: none;
+    margin: 3px 0 0 10%;
+}
+.input-icon-bonus::-webkit-input-placeholder {
+   text-align: center;
+   color: #e6cb73;
+   /*font-size: 16px;*/
+   font-weight: 700;
+}
+
+.input-icon-bonus::-moz-placeholder { /* Firefox 18- */
+   text-align: center;
+   color: #e6cb73;
+   /*font-size: 16px;*/
+   font-weight: 700;  
+}
+
+.input-icon-bonus::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;
+   color: #e6cb73;
+   /*font-size: 16px;*/
+   font-weight: 700;  
+}
+
+.input-icon-bonus::-ms-input-placeholder {  
+   text-align: center;
+   color: #e6cb73;
+   /*font-size: 16px;*/
+   font-weight: 700; 
+}
+.cricket-gaming-register-button button{
+	background-color: transparent;
+	background-image: url(images/login/register-btn.png);
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: none;
+    border-radius: 0;
+    padding: 12px 50px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    box-shadow: 0px 0px transparent;
+   	outline: none;
+}
+.cricket-gaming-login-register p {
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+/* .has-error{
+    color: #a94442;
+    border: 2px solid #a94442; 
+  } */

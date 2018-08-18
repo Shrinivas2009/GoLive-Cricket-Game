@@ -1,0 +1,69 @@
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove cricket-gaming">
+  <div class="cricket-gaming-background">
+    <div class="cricket-gaming-login">
+      <div class="cricket-gaming-login-board cricket-gaming-register-board">
+        <div class="cricket-gaming-login-header">
+          <h2 style="color: #e6c545;">RESIGITER</h2>
+        </div>
+        <div class="cricket-gaming-login-section cricket-gaming-register-section">
+          <!-- <form [formGroup]="form" (ngSubmit)="onSubmit()" novalidate> -->
+          <form (ngSubmit)="onRegister()" novalidate>  
+            <div class="cricket-gaming-email cricket-register-username form-group">
+                <input type="text" placeholder="Username" id="username" 
+                class="form-control input-icon-user" name="name" 
+                [(ngModel)]="user.username" required/>
+              <!-- <input type="text" placeholder="Username" id="name" 
+              formControlName="username"
+              class="form-control input-icon-user" name="name" required [formGroup]="form"/> -->
+              <!-- <app-app-field-error-display 
+                [displayError]="isFieldValid('name')" 
+                errorMsg="Please your name">
+              </app-app-field-error-display> -->
+              <!-- <div class="alert alert-danger" *ngIf="username.touched && username.invalid">
+                <div *ngIf="username.errors.required">Username required</div>
+                <div *ngIf="username.errors.minlength">Username should be minimum{{ username.errors.minlength.requiredLength}} required</div>
+              </div> -->
+            </div>
+            <div class="cricket-gaming-email cricket-register-username form-group">
+                <input type="password" placeholder="Password" id="password" 
+                class="form-control input-icon-user" name="name" 
+                [(ngModel)]="user.password" required/>
+              <!-- <input type="password" id="password" name="password" placeholder="Password" 
+                class="form-control input-icon-password"
+                formControlName="password"
+                required minlength="6" [formGroup]="form"/> -->
+                <!-- <app-app-field-error-display 
+                  [displayError]="isFieldValid('password')" 
+                  errorMsg="Please your password">
+                </app-app-field-error-display> -->
+                <!-- <div class="alert alert-danger" *ngIf="form.controls.touched && form.controls.invalid">Enter password</div> -->
+            </div>
+            <div class="cricket-gaming-email cricket-register-username form-group" >
+                <input type="password" class="form-control input-icon-password" id="confrimpassword" 
+                  placeholder="Re-enter Password" 
+                [(ngModel)]="user.confirmpassword" name="confirmpassword" required>
+              <!-- <input type="password" name="confirmPassword" id="confirmPassword" 
+                formControlName="confirmPassword"
+                placeholder="Confirm Password" class="form-control input-icon-password" 
+                required minlength="6" [formGroup]="form"/> -->
+                <!-- <app-app-field-error-display 
+                  [displayError]="isFieldValid('confirmPassword')" 
+                  errorMsg="Please same password">
+                </app-app-field-error-display> -->
+                <!-- <div class="alert alert-danger" *ngIf="form.controls.confirmPassword.errors?.MutchPassword">Password not match</div> -->
+            </div>
+            <div class="cricket-gaming-email cricket-register-username form-group">
+              <input type="text" name="" placeholder="Enter Reedom Code" class="input-icon-bonus">
+            </div>
+            <div class="cricket-gaming-login-button cricket-gaming-register-button">
+              <button class="btn center-block">Register</button>
+            </div>
+            <div class="cricket-gaming-login-register">
+              <p>Already a member? <a routerLink="/login"><u>Login</u></a></p>
+            </div>
+          </form>  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
