@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Cricket Game</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style-dashboard.css">
+	<link rel="stylesheet" type="text/css" href="css/style-t.css">
+	<link rel="stylesheet" type="text/css" href="css/style-drop.css">
+	<link rel="stylesheet" type="text/css" href="css/style-invite.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/style-profile.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/jquery.mobile-git.css">
+	<!-- <link rel="stylesheet"  href="http://code.jquery.com/mobile/git/jquery.mobile-git.css" />  -->
+	<link rel="stylesheet" type="text/css" href="css/jquery.mobile.datepicker.css">
+  	<!-- <link rel="stylesheet" href="https://rawgithub.com/arschmitz/jquery-mobile-datepicker-wrapper/master/jquery.mobile.datepicker.css" /> -->
+</head>
+<body>  
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove cricket-gaming">
+		<div class="cricket-main-bat">
+			<img src="images/pro-tip/bat-logo.png">
+		</div>
+		<div class="cricket-gaming-background cricket-main-center">
+			<header class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove cricket-gaming-header">
+				<!-- <img src="images/header.jpg" class="cricket-head-image"> -->
+				<div class="cricket-fixed-header">
+					<div class="cricket-gaming-heading">
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 padding-remove">
+							<div class="tournament-home">
+								<a href="index.html">
+									<button>
+										<img src="images/SPR_HomeIcon.png">
+									</button>
+								</a>
+							</div>	
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-remove">
+							<div class=" cricket-golive-games">
+								<h1 style="">DASHBOARD</h1>
+							</div>	
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 cricket-gold-coin">
+							<!-- <h3>6000</h3> -->
+							<!-- <img src="images/header/coin.png" class="coins-image-right"> -->
+						</div>					
+					</div>
+				</div>
+			</header>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove" style="top: 50px;">
+				<div class="tournament-background">
+					<div class="tournament-team-name">
+						<div class="col-lg-12 col-md-12 padding-remove ">
+							<div class="cricket-gaming-tournament">
+								<div class="cricket-myDeck-height cricket-myDeck-height-66">	
+									<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove">
+	                                    <div class="card cricket-dashboard-width-100">
+		                                
+		                                    <div class="cricket-customize-detail padding-left-remove">
+		                                    	<div class="cricket-customize cricket-dashboard-width-98">
+		                                    		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove">
+		                                    			<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 padding-remove" style="padding: 0 8px !important;">
+		                                    				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 padding-remove">
+		                                    					<div data-role="content dashboard-calender">
+		                                    						<i class="fa fa-calendar calender"></i>
+																	<input type="text" id="date-input" data-inline="false" data-role="date" placeholder="start date">
+																</div>
+		                                    				</div>
+		                                    				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 padding-remove"><h2 style="font-size: 14px; font-weight: 200;">to</h2></div>
+		                                    				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 padding-remove">
+		                                    					<div data-role="content">
+		                                    						<i class="fa fa-calendar calender"></i>
+																	<input type="text" id="date-input1" data-inline="false" data-role="date" placeholder="end date">
+																</div>
+		                                    				</div>
+		                                    			</div>
+		                                    			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-remove">
+		                                    				<div class="tournament-refresh tournament-home cricket-dashboard-width-100 cricket-dashboard-dropdown-content">
+																<div class="hamburger cricket-dashboard-dropdown">
+																	<i class="fa fa-caret-down" aria-hidden="true" style="float: right; font-size: 15px;"></i>
+																</div>
+																<ul class="menu cricket-drop-down-scroll-bar cricket-dashboard-dropdown-menu ">
+																	<li><a href="#" id="ChallengeTournamentPractice">All</a></li>
+																	<li><a href="#" id="net-practices">Net Practices</a></li>
+																	<li><a href="#" id="tournament">Tournament</a></li>
+																	<li><a href="#" id="challenge">Challenge</a></li>
+																</ul>
+															</div>
+		                                    			</div>
+		                                    		</div>
+		                                    		<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove">
+		                                    			<div class="tournament-team-name-width cricket-dashboard-width-100">
+															<table class="table tournament-team-table ">
+																<thead>
+																	<tr>
+																		<th class="cricket-gaming-team-home cricket-gaming-from-date" style="color: #ffdf7f;">FROM DATE</th>
+																		<!-- <th class="golive-total-matchs cricket-gaming-to-date" style="">TO DATE</th> -->
+																		<th class="cricket-gaming-match-win cricket-gaming-match-total-player" style=" color: #8ae62e;">TOTAL</th>
+																	</tr>
+																</thead>
+															</table>	
+														</div>
+														<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove">
+															<div class="cricket-gaming-tournament">
+																<ul class="cricket-gaming-tournament-view cricket-gaming-average-height cricket-scroll-bar">
+																	
+																</ul>
+															</div>
+														</div>
+		                                    		</section>
+		                                    	</div>
+		                                    </div>
+										</div>
+	                                </div>
+                                </div>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+		<div class="cricket-main-bat">
+			<img src="images/pro-tip/bowler-logo.png" style="float: right;">
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/sliders.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script> 
+    <script type="text/javascript" src="js/jquery.ui.datepicker.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/mobile/git/jquery.mobile-git.js"></script> 
+    <script type="text/javascript" src="js/jquery.mobile.datepicker.js"></script>
+    <script type="text/javascript">
+  	$(document).ready(function(){
+		$('.hamburger').on('click',function(){
+			if(!$('.menu').is(':visible')){
+				$('.menu').slideDown();
+			}else{
+				$('.menu').slideUp();
+			}
+		})
+	})
+  </script>
+  <script type="text/javascript">
+  	$('.cricket-dashboard-dropdown-menu a').on('click', function(){    
+	    $(this).parent().parent().prev().html($(this).html() + '<span class="caret dashboard-caret"></span>');
+	    $('.menu').slideUp();
+	})
+  </script>
+  <script type="text/javascript" src="js/config.js"></script>
+  <script type="text/javascript">
+  	console.log(server);
+  	$("#net-practices").click(function(){
+  		showData("AnalyticsPracticeMatchPlayers");	
+	});
+  	$("#tournament").click(function(){
+  		showData("AnalyticsTournamentPlayers");
+  	});
+  	$("#challenge").click(function(){
+  		showData("AnalyticsChallengePlayers");
+  	});
+  	$("#ChallengeTournamentPractice").click(function(){
+  		showData("AnalyticsChallengeTournamentPracticePlayers");
+  	});
+	function showData(type){
+		var start_date = $("#date-input").val();
+		var end_date = $("#date-input1").val();
+		//"2018-06-07T00:00:00.000Z"
+	    var sendInfo = {
+			"@class": ".LogEventRequest",
+			"eventKey": type,
+			"startDate": start_date,
+			"endDate": end_date, 
+			"playerId": playerId
+		};
+		ajaxCall(sendInfo, function(response){
+			
+			console.log(response);
+			if(response && response.error){
+				alert("Error occured try again");
+			}else if(response.scriptData){
+				if(type == "AnalyticsPracticeMatchPlayers"){
+					 if(response.scriptData["Practice Match Players"] && response.scriptData["Practice Match Players"]["list"]){
+					 		var responseData = response.scriptData["Practice Match Players"]["list"];
+					 }
+				}else if(type == "AnalyticsTournamentPlayers"){
+					if(response.scriptData["Tournament Players"] && response.scriptData["Tournament Players"]["list"]){
+							var responseData = response.scriptData["Tournament Players"]["list"];
+					}
+				}else if(type == "AnalyticsChallengePlayers"){
+					if(response.scriptData["Challenge Players"] && response.scriptData["Challenge Players"]["list"]){
+							var responseData = response.scriptData["Challenge Players"]["list"];
+					}
+				}else if(type == "AnalyticsChallengeTournamentPracticePlayers"){
+					if(response.scriptData["Tournament,Challenge and Practice Match Players"] && response.scriptData["Tournament,Challenge and Practice Match Players"]["list"]){
+							var responseData = response.scriptData["Tournament,Challenge and Practice Match Players"]["list"];
+					}
+				}
+
+				$(".cricket-gaming-tournament-view").html("");
+				// console.log(responseData);
+				var keys = Object.keys(responseData);
+				for(var i = 0; i < keys.length; i++){
+					if(keys[i] != "Total Players"){
+						$(".cricket-gaming-tournament-view").append('<li class="cricket-gaming-tournament-view-list"\ 										id="popup-person1">\
+																	<table class="table" style="margin-bottom: 0 !important;">\
+																	<tbody><tr class="cricket-gaming-team-row">\
+																		<td class="cricket-gaming-team-home-list cricket-gaming-from-date" style="text-overflow: ellipsis; overflow: hidden; white-space: nowrap;">\
+																			<div class="col-md-12 padding-remove golive-cricket-match-username">\
+																				<h2>' + keys[i] + '\
+																			</h2></div>\
+																		</td>\
+																		<td class="cricket-gaming-match-win cricket-gaming-match-total-player">\
+																			<h2>' +responseData[keys[i]]+ '</h2>\
+																		</td>\
+																	</tr>\
+																	</tbody></table>\
+																	</li>');
+					}
+				}
+				
+				// $("#username").val(response.scriptData["Only Practice Match Players"]["count"]);
+				// alert(response.scriptData["Only Practice Match Players"]["count"] + " played only practice match");
+			}else{
+				alert("No Data Found");
+			}
+		});
+	}
+
+	function ajaxCall(inputData, returnFunction){
+		$.ajax({
+           'type': "POST",
+           'url': "https://" + gameCode + "." + server + ".gamesparks.net/rs/" + credential + "/" + secret + "/LogEventRequest",
+           'dataType': "json",
+           'contentType': 'application/json',
+           'data': JSON.stringify(inputData),
+           success: function (msg) {
+               returnFunction(msg);
+           }
+       });
+	}
+  </script>
+</body>
+</html>

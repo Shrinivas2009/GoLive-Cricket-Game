@@ -20,7 +20,7 @@
 	border-bottom: 2px solid #8faabf !important;
 }
 .tournament-team-table{
-	width: 95% !important;
+	width: 100% !important;
 	margin: 4px auto 0 !important;
 }
 .tournament-team-table thead{
@@ -61,7 +61,7 @@
 .tournament-username h2{
 	margin: 0;
 	font-size: 12px;
-	line-height: 29px;
+	line-height: 32px;
 	font-weight: 700;
 	text-align: left;
 	padding: 0 8px;
@@ -139,6 +139,7 @@
 	float: left;
 	    font-size: 12px;
     font-weight: 700;
+    text-align: center;
 }
 .cricket-gaming-team-coins img{
 	width: 17px;
@@ -172,8 +173,8 @@
     height: calc(100vh - (105px));
     display:block;
     overflow-y: auto;
-    width: 95%;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0 auto 4px;
 }
 .cricket-player-height{
 	height: -moz-calc(100vh - (350px));
@@ -188,6 +189,8 @@
 	cursor: pointer;
 	width: 98%;
 	margin: 10px auto 0;
+	/*width: 100%;*/
+    /*margin: 10px 0 0 2px;*/
 	background: rgba(242,246,248,1);
 background: -moz-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 50%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242,246,248,1)), color-stop(50%, rgba(216,225,231,1)), color-stop(51%, rgba(181,198,208,1)), color-stop(100%, rgba(224,239,249,1)));
@@ -202,14 +205,14 @@ background: -ms-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1)
 
 .cricket-gaming-team-user-icon{
 	background: #566e97;
-	padding: 5px;
+	padding: 0px;
 	border: 2px solid #92a1bb;
 }
 .cricket-gaming-team-user-icon p{
 	margin-bottom: 0;
 	/*background: #566e97;*/
 	text-align: center;
-	font-size: 12px;
+	font-size: 20px;
 	color: #dbe1ea;
 }
 .cricket-gaming-team-row td{
@@ -226,19 +229,12 @@ background: -ms-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1)
 	display: none;
     clear: both;
     float: none;
-    /*right: 0;*/
     margin: 0;
     top: 150%;
     position: relative;
-    /*width: 50%;*/
     z-index: 9;
-    right: 360%;
-    /*margin: 0;*/
-    /*top: 13px !important;*/
-    /*position: absolute !important;*/
-    /*width: 50%;*/
+    right: 315%;
     z-index: 9999;
-    /* background: #fff; */
     height: 150px;
     overflow-y: auto;
 }
@@ -336,3 +332,13 @@ border-color: transparent transparent #007bff transparent;
     margin-right: 0px;
 }
 /**********this end***********/
+
+
+@media (min-width: 320px) and (max-width: 479px){
+	.cricket-gaming-tournament-view{
+		height: -moz-calc(100vh - (86px));
+		height: -webkit-calc(100vh - (86px));
+		height: calc(100vh - (86px));
+	}
+	
+}

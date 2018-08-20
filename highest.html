@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Cricket Game</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style-highest-score.css">
+	<link rel="stylesheet" type="text/css" href="css/style-t.css">
+	<link rel="stylesheet" type="text/css" href="css/style-drop.css">
+	<link rel="stylesheet" type="text/css" href="css/style-invite.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+<body>
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove cricket-gaming">
+		<div class="cricket-gaming-background">
+			<header class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove cricket-gaming-header">
+				<!-- <img src="images/header.jpg" class="cricket-head-image"> -->
+				<div class="cricket-fixed-header">
+					<div class="cricket-gaming-heading">
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 padding-remove">
+							<div class="tournament-home">
+								<a href="index.html">
+									<button>
+										<img src="images/btn-home.png">
+									</button>
+								</a>
+							</div>	
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-remove">
+							<div class=" cricket-golive-games">
+								<h1 style="">Highest Score</h1>
+							</div>	
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 padding-remove">
+							<div class="tournament-refresh tournament-home">
+								<!-- <button>
+									<i class="fa fa-caret-down" aria-hidden="true"></i>
+								</button> -->
+								<button class="hamburger">
+									<img src="images/dropdown-btn.png">
+								</button>
+								<ul class="menu cricket-drop-down-scroll-bar">
+									<li><input type="radio" name=""><a href="#">Highest Score</a></li>
+									<li><input type="radio" name=""><a href="#">Honor LeaderBoard</a></li>
+									<li><input type="radio" name=""><a href="#">Leading Run Scorer</a></li>
+									<li><input type="radio" name=""><a href="#">Leading Wicket Taker</a></li>
+									<li><input type="radio" name=""><a href="#">XP LeaderBoard</a></li>
+								</ul>
+							</div>
+						</div>					
+					</div>
+				</div>
+			</header>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove" style="top: 50px;">
+				<div class="tournament-background leader-board-width">
+					<div class="tournament-team-name">
+						<div class="col-lg-12 col-md-12 padding-remove ">
+							<div class="tournament-team-name-width">
+								<table class="table tournament-team-table ">
+									<thead>
+										<tr>
+											<th class="cricket-gaming-team-home">PLAYER NAME</th>
+											<th class="cricket-hg-score-run" style="background: ">RUNS</th>
+											<th class="cricket-hg-score-balls" style="background: #6e1a1c;">BALLS</th>
+											<th class="cricket-gaming-team-coins">INVITE</th>
+										</tr>
+									</thead>
+								</table>	
+							</div>
+							<div class="cricket-gaming-tournament">
+								<ul class="cricket-gaming-tournament-view cricket-scroll-bar">
+									<li class="cricket-gaming-tournament-view-list cricket-gaming-noeffect-view-list row toggle" id="dropdown-detail-1" data-toggle="detail-1">
+										<table class="table"  style="margin-bottom: 0 !important;">
+											<tr class="cricket-gaming-team-row">
+												<td class="cricket-gaming-team-home-list" style="padding: 0 !important; background: linear-gradient(to left, rgba(255,0,0,0), rgba(244,239,147,1));">
+													<div class="col-md-2 padding-remove">
+														<img src="images/tour-rank-one.png" style="width: 28px;">
+													</div>
+													<div class="col-md-2 padding-remove">
+														<div class="cricket-gaming-team-user-icon">
+															<p><i class="fa fa-user" aria-hidden="true"></i></p>
+														</div>
+													</div>
+													<div class="col-md-8 padding-remove tournament-username">
+														<h2>Name Name Name Name Name Name</h2>
+													</div>
+												</td>
+												<td class="cricket-hg-score-run" style="padding-top: 7px !important;">34</td>
+												<td class="cricket-hg-score-balls" style="padding-top: 7px !important;">4</td>
+												<td class="cricket-gaming-team-coins" style="padding: 0 !important;"><button class="btn"></button></td>
+											</tr>
+										</table>
+									</li>
+									<li class="cricket-gaming-tournament-view-list cricket-gaming-noeffect-view-list row toggle" id="dropdown-detail-2" data-toggle="detail-2">
+									<table class="table"  style="margin-bottom: 0 !important;">
+									<tr class="cricket-gaming-team-row">
+										<td class="cricket-gaming-team-home-list" style="padding: 0 !important; background: linear-gradient(to left, rgba(255,0,0,0), rgba(179,236,247,1));">
+											<div class="col-md-2 padding-remove">
+												<img src="images/tour-rank-two.png" style="width: 28px;">
+											</div>
+											<div class="col-md-2 padding-remove">
+												<div class="cricket-gaming-team-user-icon">
+													<p><i class="fa fa-user" aria-hidden="true"></i></p>
+												</div>
+											</div>
+											<div class="col-md-8 padding-remove tournament-username">
+												<h2>Name</h2>
+											</div>
+										</td>
+										<td class="cricket-hg-score-run" style="padding-top: 7px !important;">34</td>
+										<td class="cricket-hg-score-balls" style="padding-top: 7px !important;">4</td>
+										<td class="cricket-gaming-team-coins" style="padding: 0 !important;"><button class="btn"></button></td>
+									</tr>
+									</table>
+									</li>
+									<li class="cricket-gaming-tournament-view-list cricket-gaming-noeffect-view-list row toggle" id="dropdown-detail-3" data-toggle="detail-3">
+									<table class="table"  style="margin-bottom: 0 !important;">
+									<tr class="cricket-gaming-team-row">
+										<td class="cricket-gaming-team-home-list" style="padding: 0 !important; background: linear-gradient(to left, rgba(255,0,0,0), rgba(237,179,160,1));">
+											<div class="col-md-2 padding-remove">
+												<img src="images/tour-rank-three.png" style="width: 28px;">
+											</div>
+											<div class="col-md-2 padding-remove">
+												<div class="cricket-gaming-team-user-icon">
+													<p><i class="fa fa-user" aria-hidden="true"></i></p>
+												</div>
+											</div>
+											<div class="col-md-8 padding-remove tournament-username">
+												<h2>Name</h2>
+											</div>
+										</td>
+										<td class="cricket-hg-score-run" style="padding-top: 7px !important;">34</td>
+										<td class="cricket-hg-score-balls" style="padding-top: 7px !important;">4</td>
+										<td class="cricket-gaming-team-coins" style="padding: 0 !important;"><button class="btn"></button></td>
+									</tr>
+									</table>
+									</li>
+									<li class="cricket-gaming-tournament-view-list cricket-gaming-noeffect-view-list row toggle" id="dropdown-detail-4" data-toggle="detail-4">
+									<table class="table"  style="margin-bottom: 0 !important;">
+									<tr class="cricket-gaming-team-row">
+										<td class="cricket-gaming-team-home-list" style="padding: 0 !important;">
+											<div class="col-md-2 padding-remove">
+												<h2>4</h2>
+											</div>
+											<div class="col-md-2 padding-remove">
+												<div class="cricket-gaming-team-user-icon">
+													<p><i class="fa fa-user" aria-hidden="true"></i></p>
+												</div>
+											</div>
+											<div class="col-md-8 padding-remove tournament-username">
+												<h2>Name</h2>
+											</div>
+										</td>
+										<td class="cricket-hg-score-run" style="padding-top: 7px !important;">34</td>
+										<td class="cricket-hg-score-balls" style="padding-top: 7px !important;">4</td>
+										<td class="cricket-gaming-team-coins" style="padding: 0 !important;"><button class="btn"></button></td>
+									</tr>
+									</table>
+									</li>
+									<li class="cricket-gaming-tournament-view-list cricket-gaming-noeffect-view-list row toggle" id="dropdown-detail-4" data-toggle="detail-4">
+									<table class="table"  style="margin-bottom: 0 !important;">
+									<tr class="cricket-gaming-team-row">
+										<td class="cricket-gaming-team-home-list" style="padding: 0 !important;">
+											<div class="col-md-2 padding-remove">
+												<h2>4</h2>
+											</div>
+											<div class="col-md-2 padding-remove">
+												<div class="cricket-gaming-team-user-icon">
+													<p><i class="fa fa-user" aria-hidden="true"></i></p>
+												</div>
+											</div>
+											<div class="col-md-8 padding-remove tournament-username">
+												<h2>Name</h2>
+											</div>
+										</td>
+										<td class="cricket-hg-score-run" style="padding-top: 7px !important;">34</td>
+										<td class="cricket-hg-score-balls" style="padding-top: 7px !important;">4</td>
+										<td class="cricket-gaming-team-coins" style="padding: 0 !important;"><button class="btn"></button></td>
+									</tr>
+									</table>
+									</li>
+									<li class="cricket-gaming-tournament-view-list cricket-gaming-noeffect-view-list row toggle" id="dropdown-detail-4" data-toggle="detail-4">
+									<table class="table"  style="margin-bottom: 0 !important;">
+									<tr class="cricket-gaming-team-row">
+										<td class="cricket-gaming-team-home-list" style="padding: 0 !important;">
+											<div class="col-md-2 padding-remove">
+												<h2>4</h2>
+											</div>
+											<div class="col-md-2 padding-remove">
+												<div class="cricket-gaming-team-user-icon">
+													<p><i class="fa fa-user" aria-hidden="true"></i></p>
+												</div>
+											</div>
+											<div class="col-md-8 padding-remove tournament-username">
+												<h2>Name</h2>
+											</div>
+										</td>
+										<td class="cricket-hg-score-run" style="padding-top: 7px !important;">34</td>
+										<td class="cricket-hg-score-balls" style="padding-top: 7px !important;">4</td>
+										<td class="cricket-gaming-team-coins" style="padding: 0 !important;"><button class="btn"></button></td>
+									</tr>
+									</table>
+									</li>
+									<li class="cricket-gaming-tournament-view-list cricket-gaming-noeffect-view-list row toggle" id="dropdown-detail-4" data-toggle="detail-4">
+									<table class="table"  style="margin-bottom: 0 !important;">
+									<tr class="cricket-gaming-team-row">
+										<td class="cricket-gaming-team-home-list" style="padding: 0 !important;">
+											<div class="col-md-2 padding-remove">
+												<h2>4</h2>
+											</div>
+											<div class="col-md-2 padding-remove">
+												<div class="cricket-gaming-team-user-icon">
+													<p><i class="fa fa-user" aria-hidden="true"></i></p>
+												</div>
+											</div>
+											<div class="col-md-8 padding-remove tournament-username">
+												<h2>Name</h2>
+											</div>
+										</td>
+										<td class="cricket-hg-score-run" style="padding-top: 7px !important;">34</td>
+										<td class="cricket-hg-score-balls" style="padding-top: 7px !important;">4</td>
+										<td class="cricket-gaming-team-coins" style="padding: 0 !important;"><button class="btn"></button></td>
+									</tr>
+									</table>
+									</li>
+									<li class="cricket-gaming-tournament-view-list cricket-gaming-noeffect-view-list row toggle" id="dropdown-detail-4" data-toggle="detail-4">
+									<table class="table"  style="margin-bottom: 0 !important;">
+									<tr class="cricket-gaming-team-row">
+										<td class="cricket-gaming-team-home-list" style="padding: 0 !important;">
+											<div class="col-md-2 padding-remove">
+												<h2>4</h2>
+											</div>
+											<div class="col-md-2 padding-remove">
+												<div class="cricket-gaming-team-user-icon">
+													<p><i class="fa fa-user" aria-hidden="true"></i></p>
+												</div>
+											</div>
+											<div class="col-md-8 padding-remove tournament-username">
+												<h2>Name</h2>
+											</div>
+										</td>
+										<td class="cricket-hg-score-run" style="padding-top: 7px !important;">34</td>
+										<td class="cricket-hg-score-balls" style="padding-top: 7px !important;">4</td>
+										<td class="cricket-gaming-team-coins" style="padding: 0 !important;"><button class="btn"></button></td>
+									</tr>
+									</table>
+									</li>
+									<li class="cricket-gaming-tournament-view-list cricket-gaming-noeffect-view-list row toggle" id="dropdown-detail-4" data-toggle="detail-4">
+									<table class="table"  style="margin-bottom: 0 !important;">
+									<tr class="cricket-gaming-team-row">
+										<td class="cricket-gaming-team-home-list" style="padding: 0 !important;">
+											<div class="col-md-2 padding-remove">
+												<h2>4</h2>
+											</div>
+											<div class="col-md-2 padding-remove">
+												<div class="cricket-gaming-team-user-icon">
+													<p><i class="fa fa-user" aria-hidden="true"></i></p>
+												</div>
+											</div>
+											<div class="col-md-8 padding-remove tournament-username">
+												<h2>Name</h2>
+											</div>
+										</td>
+										<td class="cricket-hg-score-run" style="padding-top: 7px !important;">34</td>
+										<td class="cricket-hg-score-balls" style="padding-top: 7px !important;">4</td>
+										<td class="cricket-gaming-team-coins" style="padding: 0 !important;"><button class="btn"></button></td>
+									</tr>
+									</table>
+									</li>
+									<li class="cricket-gaming-tournament-view-list cricket-gaming-noeffect-view-list row toggle" id="dropdown-detail-4" data-toggle="detail-4">
+									<table class="table"  style="margin-bottom: 0 !important;">
+									<tr class="cricket-gaming-team-row">
+										<td class="cricket-gaming-team-home-list" style="padding: 0 !important;">
+											<div class="col-md-2 padding-remove">
+												<h2>4</h2>
+											</div>
+											<div class="col-md-2 padding-remove">
+												<div class="cricket-gaming-team-user-icon">
+													<p><i class="fa fa-user" aria-hidden="true"></i></p>
+												</div>
+											</div>
+											<div class="col-md-8 padding-remove tournament-username">
+												<h2>Name</h2>
+											</div>
+										</td>
+										<td class="cricket-hg-score-run" style="padding-top: 7px !important;">34</td>
+										<td class="cricket-hg-score-balls" style="padding-top: 7px !important;">4</td>
+										<td class="cricket-gaming-team-coins" style="padding: 0 !important;"><button class="btn"></button></td>
+									</tr>
+									</table>
+									</li>
+									<li class="cricket-gaming-tournament-view-list cricket-gaming-noeffect-view-list row toggle" id="dropdown-detail-4" data-toggle="detail-4">
+									<table class="table"  style="margin-bottom: 0 !important;">
+									<tr class="cricket-gaming-team-row">
+										<td class="cricket-gaming-team-home-list" style="padding: 0 !important;">
+											<div class="col-md-2 padding-remove">
+												<h2>4</h2>
+											</div>
+											<div class="col-md-2 padding-remove">
+												<div class="cricket-gaming-team-user-icon">
+													<p><i class="fa fa-user" aria-hidden="true"></i></p>
+												</div>
+											</div>
+											<div class="col-md-8 padding-remove tournament-username">
+												<h2>Name</h2>
+											</div>
+										</td>
+										<td class="cricket-hg-score-run" style="padding-top: 7px !important;">34</td>
+										<td class="cricket-hg-score-balls" style="padding-top: 7px !important;">4</td>
+										<td class="cricket-gaming-team-coins" style="padding: 0 !important;"><button class="btn"></button></td>
+									</tr>
+									</table>
+									</li>
+
+								</ul>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+		    $('[id^=detail-]').hide();
+		    $('.toggle').click(function() {
+		        $input = $( this );
+		        $target = $('#'+$input.attr('data-toggle'));
+		        $target.slideToggle();
+		    });
+		});
+
+		$(document).ready(function(){
+			$('.hamburger').on('click',function(){
+				if(!$('.menu').is(':visible')){
+					$('.menu').slideDown();
+				}else{
+					$('.menu').slideUp();
+				}
+			})
+		})
+	</script>
+</body>
+</html>

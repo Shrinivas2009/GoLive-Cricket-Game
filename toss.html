@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Cricket Game</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style-toss.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+<body>
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove cricket-gaming">
+		<div class="cricket-gaming-background">
+			<div class="cricket-toss-background">
+				<div class="cricket-toss-hand-bg">
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 cricket-toss-head">
+						<button id="headToss"></button>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 cricket-toss-tail">
+						<button id="tailToss"></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<script type="text/javascript">
+		document.getElementById("headToss").onclick = function () {
+	        location.href = "playing.html";
+	    };
+	    document.getElementById("tailToss").onclick = function () {
+	        location.href = "playing.html";
+	    };
+	</script>
+</body>
+</html>

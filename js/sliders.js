@@ -25,7 +25,7 @@ var Sliders = root['Sliders'] = function(el, opts) {
     'value': 0,
     // min + max states (inclusive)
     'min': 0,
-    'max': 100,
+    'max': 10,
     // step interval
     'step': 1,
     // animation time (ms)
@@ -33,7 +33,7 @@ var Sliders = root['Sliders'] = function(el, opts) {
      // animation transition,
     'easing': 'swing',
     // width used if not set in css
-    'width': 50,
+    'width': '100%',
     // height if not set in css
     'height': 20,
     // the event to fire once we've finished changing (e.g. click or drag released)
@@ -130,7 +130,7 @@ Sliders.prototype.bindEvents = function() {
   if (self.opts['click']) {
     self.el.on('click', function(e) {
       var off = self.el.offset();
-      self.move((e.pageX - off.left) / self.w * 100);
+      self.move((e.pageX - off.right) / self.w * 100);
       self.bound();
     });
   }

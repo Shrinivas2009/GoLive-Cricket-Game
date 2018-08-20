@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Cricket Game</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style-dashboard.css">
+	<link rel="stylesheet" type="text/css" href="css/style-t.css">
+	 <!-- <link rel="stylesheet" href="css/style-cards-chart.css"> -->
+    <!-- <link rel="stylesheet" href="css/bar.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/style-drop.css">
+	<link rel="stylesheet" type="text/css" href="css/style-invite.css">
+	<link rel="stylesheet" type="text/css" href="css/style-card-tab.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/jquery.mobile-git.css">
+	<!-- <link rel="stylesheet"  href="http://code.jquery.com/mobile/git/jquery.mobile-git.css" />  -->
+	<link rel="stylesheet" type="text/css" href="css/jquery.mobile.datepicker.css">
+  	<!-- <link rel="stylesheet" href="https://rawgithub.com/arschmitz/jquery-mobile-datepicker-wrapper/master/jquery.mobile.datepicker.css" /> -->
+  	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+</head>
+<body>  
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove cricket-gaming">
+		<div class="cricket-main-bat">
+			<img src="images/pro-tip/bat-logo.png">
+		</div>
+		<div class="cricket-gaming-background cricket-main-center">
+			<header class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove cricket-gaming-header">
+				<!-- <img src="images/header.jpg" class="cricket-head-image"> -->
+				<div class="cricket-fixed-header">
+					<div class="cricket-gaming-heading">
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 padding-remove">
+							<div class="tournament-home">
+								<a href="index.html">
+									<button>
+										<img src="images/SPR_HomeIcon.png">
+									</button>
+								</a>
+							</div>	
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-remove">
+							<div class=" cricket-golive-games">
+								<h1 style="">USING CARDS</h1>
+							</div>	
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 cricket-gold-coin">
+						</div>					
+					</div>
+				</div>
+			</header>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove" style="top: 50px;">
+				<div class="tournament-background">
+					<div class="tournament-team-name">
+						<div class="col-lg-12 col-md-12 padding-remove ">
+							<div class="cricket-gaming-tournament">
+								<div class="cricket-myDeck-height cricket-myDeck-height-66">	
+									<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove">
+	                                    <div class="card cricket-dashboard-width-100">
+		                                
+		                                    <div class="cricket-customize-detail padding-left-remove">
+		                                    	<div class="cricket-customize cricket-dashboard-width-98">
+		                                    		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove">
+		                                    			<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 padding-remove" style="padding: 0 8px !important;">
+		                                    				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 padding-remove">
+		                                    					<div data-role="content dashboard-calender">
+		                                    						<i class="fa fa-calendar calender"></i>
+																	<input type="text" id="date-input" data-inline="false" data-role="date" placeholder="start date">
+																</div>
+		                                    				</div>
+		                                    				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 padding-remove"><h2 style="font-size: 14px; font-weight: 200;">to</h2></div>
+		                                    				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 padding-remove">
+		                                    					<div data-role="content">
+		                                    						<i class="fa fa-calendar calender"></i>
+																	<input type="text" id="date-input1" data-inline="false" data-role="date" placeholder="end date">
+																</div>
+		                                    				</div>
+		                                    			</div>
+		                                    			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 padding-remove">
+		                                    				<div class="dashboard-profile-go-btn ">
+																<button class="btn cricket-cards-using-persons">GO</button>
+															</div>
+		                                    			</div>
+		                                    		</div>
+		                                    		<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove">
+		                                    			<div class="row" style="margin: 0;">
+															<div class="span12"> 
+													            <div id="tab" class="btn-group col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove" data-toggle="buttons-radio">
+													              	<a href="#All" class="btn col-lg-4 col-md-4 col-sm-4 col-xs-4 active btn-primary" data-toggle="tab">All</a>
+													              	<a href="#Batting" class="btn btn-primary col-lg-4 col-md-4 col-sm-4 col-xs-4" data-toggle="tab">Batting</a>
+													              	<a href="#Bowling" class="btn btn-primary col-lg-4 col-md-4 col-sm-4 col-xs-4" data-toggle="tab">Bowling</a>
+													            </div>
+
+													            <div class="tab-content">
+													              	<div class="tab-pane active" id="All">
+													              		<div class="cricket-bg-dashboard cricket-cards-chart-bg cricket-dashboard-width-100">
+													              			<div id='myChart'></div>
+													              			<!-- <div id="chart-container"></div> -->
+													              		</div>	
+													              	</div>
+													              	<div class="tab-pane" id="Batting">Batting</div>
+													              	<div class="tab-pane" id="Bowling">Bowling</div>
+													            </div>
+													        </div>
+													    </div>        
+		                                    			
+														<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove">
+															<div class="cricket-gaming-tournament">
+																<p class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><span class="common"></span>Common Card</p>
+																<p class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><span class="uncommon"></span>Uncommon Card</p>
+																<p class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><span class="rare"></span>Rare Card</p>
+																<p class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><span class="epic"></span>Epic Card</p>
+																<p class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><span class="legendary"></span>Legendary Card</p>
+															</div>
+														</div>
+		                                    		</section>
+		                                    	</div>
+		                                    </div>
+										</div>
+	                                </div>
+                                </div>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+		<div class="cricket-main-bat">
+			<img src="images/pro-tip/bowler-logo.png" style="float: right;">
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/sliders.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script> 
+    <script type="text/javascript" src="js/jquery.ui.datepicker.js"></script>
+    <!-- <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script> -->
+    <script type="text/javascript" src="js/jquery.mobile-git.js"></script> 
+    <script type="text/javascript" src="js/jquery.mobile.datepicker.js"></script>
+    <script src= "js/zingchart.min.js"></script>
+    <script> zingchart.MODULESDIR = "https://cdn.zingchart.com/modules/";
+		ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9","ee6b7db5b51705a13dc2339db3edaf6d"];</script>
+		
+		<!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script> -->
+<!-- <script src="http://static.fusioncharts.com/code/latest/fusioncharts.js"></script> -->
+    <script type="text/javascript">
+  	$(document).ready(function(){
+		$('.hamburger').on('click',function(){
+			if(!$('.menu').is(':visible')){
+				$('.menu').slideDown();
+			}else{
+				$('.menu').slideUp();
+			}
+		})
+	})
+  </script>
+  <script type="text/javascript">
+  	$('.cricket-dashboard-dropdown-menu a').on('click', function(){    
+	    $(this).parent().parent().prev().html($(this).html() + '<span class="caret dashboard-caret"></span>');
+	    $('.menu').slideUp();
+
+	})
+  </script>
+
+
+
+
+  <script type="text/javascript">
+  	var myConfig = {
+	  type: "bar",
+	  source:{
+	 	  text:"Cards",
+	 	  fontWeight:"700",
+	 	  color:"#FFFFFF",
+	 	},
+	  scaleY:{
+	 	  format:"%v",
+	 	  lineWidth:1,
+	 	  lineColor:"#FFFFFF",
+	 	  label:{
+	 	    color:"#FFFFFF",
+	 	    fontWeight:"none",
+	 	    text:"Players"
+	 	  },
+	 	  tick:{
+	 	    lineWidth:1,
+	 	    lineColor:"#FFFFFF"
+	 	  },
+	 	  item:{
+	 	    color:"#FFFFFF"
+	 	  }
+	 	},
+	 	scaleX:{
+	 		"values": [
+			      "C",
+			      "UC",
+			      "R",
+			      "E",
+			      "L"
+			    ],
+	 	  lineWidth:1,
+	 	  transform:{
+	 	    type:"Cards Name",
+	 	    all:"%m/%d/%y <br> %h:%i %A"
+	 	  },
+	 	  tick:{
+	 	    lineWidth:1,
+	 	    lineColor:"#FFFFFF"
+	 	  },
+	 	  item:{
+	 	    color:"#FFFFFF"
+	 	  }
+	 	},
+	 	crosshairX:{
+	 	  scaleLabel:{
+	 	    backgroundColor:"#7CB5EC"
+	 	  },
+	 	  plotLabel:{
+	 	    backgroundColor:"white",
+	 	    multiple:false,
+	 	    borderRadius:3,
+	 	    text:"<span style='font-weight:bold;'>Users:%v</span>\n<span style='font-weight:bold;'>Days</span>: %v"
+	 	  }
+	 	},
+	  plot:{
+	    styles:["#83c7da","#67eaff","#17b1ff","#d24cfe","#ffc600"],
+	  },
+	  series: [
+	    {
+	    	values: [52,25,42,74,45]
+	    }
+	  ]
+	};
+
+	zingchart.render({ 
+		id : 'myChart', 
+		data : myConfig, 
+		height: "350px", 
+		width: '100%'
+	});
+  </script>
+  
+</body>
+</html>

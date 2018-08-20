@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Cricket Game</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style-dashboard.css">
+		
+	<link rel="stylesheet" type="text/css" href="css/style-t.css">
+	<link rel="stylesheet" type="text/css" href="css/style-drop.css">
+	<link rel="stylesheet" type="text/css" href="css/style-invite.css">
+	<link rel="stylesheet" type="text/css" href="css/style-dashboard-profile.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/style-profile.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="css/jquery.mobile-git.css"> -->
+	<!-- <link rel="stylesheet"  href="http://code.jquery.com/mobile/git/jquery.mobile-git.css" />  -->
+	<!-- <link rel="stylesheet" type="text/css" href="css/jquery.mobile.datepicker.css"> -->
+  	<!-- <link rel="stylesheet" href="https://rawgithub.com/arschmitz/jquery-mobile-datepicker-wrapper/master/jquery.mobile.datepicker.css" /> -->
+</head>
+<body>
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove cricket-gaming">
+		<div class="cricket-main-bat">
+			<img src="images/pro-tip/bat-logo.png">
+		</div>
+		<div class="cricket-gaming-background cricket-main-center">
+			<header class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove cricket-gaming-header">
+				<!-- <img src="images/header.jpg" class="cricket-head-image"> -->
+				<div class="cricket-fixed-header">
+					<div class="cricket-gaming-heading">
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 padding-remove">
+							<div class="tournament-home">
+								<a href="index.html">
+									<button>
+										<img src="images/SPR_HomeIcon.png">
+									</button>
+								</a>
+							</div>	
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-remove">
+							<div class=" cricket-golive-games">
+								<h1 style="">PROFILE</h1>
+							</div>	
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 cricket-gold-coin">
+							<!-- <h3>6000</h3> -->
+							<!-- <img src="images/header/coin.png" class="coins-image-right"> -->
+						</div>					
+					</div>
+				</div>
+			</header>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove" style="top: 50px;">
+				<div class="tournament-background">
+					<div class="tournament-team-name">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove ">
+							<div class="cricket-gaming-tournament">
+								<div class="cricket-myDeck-height cricket-myDeck-height-66">	
+									<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove">
+	                                    <div class="card dashboard-profile-card-width-arrange">
+		                                
+		                                    <div class="cricket-customize-detail padding-left-remove">
+		                                    	<div class="cricket-customize cricket-dashboard-width-98 dashboard-profile-width-100-percent">
+		                                    		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove">
+		                                    			<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 padding-remove" style="padding: 0 8px !important;">
+		                                    				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove">
+		                                    					<div data-role="content">
+																	<input type="text"  placeholder="Enter Player ID" class="dashboard-profile-id" id="user-id">
+																</div>
+		                                    				</div>
+		                                    				
+		                                    			</div>
+		                                    			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 padding-remove">
+		                                    				<div class="dashboard-profile-go-btn">
+																<button class="btn" id="playerId-btn">GO</button>
+															</div>
+		                                    			</div>
+		                                    		</div>
+		                                    		<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove">
+		                                    			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove cricket-dashboard-profile-content">
+		                                    				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-remove cricket-dashboard-profile-list">
+		                                    						
+		                                    				</div>
+		                                    				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-remove">
+		                                    					
+		                                    					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove">
+		                                    						<div id='myChart'></div>
+		                                    					</div>
+		                                    				</div>
+
+		                                    				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+		                                    					
+		                        
+		                                    				</div>
+		                                    				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove">
+		                                    					<div class="card dashboard-profile-width-100-percent">
+								                                    <ul class="nav nav-tabs" role="tablist">
+								                                        <li role="presentation" class="typeSelect"><a href="#batting" aria-controls="batting" role="tab" data-toggle="tab" id="battingSelected">Batting</a></li>
+								                                        <li role="presentation" class="typeSelect cricket-bowling-click" ><a href="#bowling" aria-controls="bowling" role="tab" data-toggle="tab" id="bowlingSelected">Bowling</a></li>
+								                                    </ul>
+								                                    <div class="tab-content dashboard-tab-content" >
+								                                        <div role="tabpanel" class="tab-pane active" id="batting">
+								                                        	<div class="cricket-myDeck-batting cricket-scroll-bar" >
+								                                        		<div class="tournament-team-name-width dashboard-profile-width-100-percent">
+																					<table class="table tournament-team-table ">
+																						<thead>
+																							<tr class="cricket-player-list-item">
+																								<th>CARD NAME</th>
+																								<th style="padding: 0;">
+																									<div class="tournament-refresh tournament-home cricket-dashboard-width-100 cricket-dashboard-dropdown-content padding-remove">
+																										<div class="hamburger cricket-dashboard-dropdown criccket-player-list-dropdown">
+																											<i class="fa fa-caret-down" aria-hidden="true" style="float: right; font-size: 15px;"></i>
+																										</div>
+																										<ul class="menu cricket-drop-down-scroll-bar cricket-dashboard-dropdown-menu cricket-profile-level-cards-list">
+																											<li><a href="#" id="userCommon" class="userCommon">Common</a></li>
+																											<li><a href="#" id="userUncommon" class="userUncommon">Uncommon</a></li>
+																											<li><a href="#" id="userRare" class="userRare">Rare</a></li>
+																											<li><a href="#" id="userEpic" class="userEpic">Epic</a></li>
+																											<li><a href="#" id="userLegendary" class="userLegendary">Legendary</a></li>
+																										</ul>
+																									</div>
+																								</th>
+																								<th>USED</th>
+																							</tr>
+																						</thead>
+																					</table>	
+																				</div>
+								                                        		<ul class="cricket-mydeck-board dashboard-profile-cards-height cricket-scroll-bar">
+								                                        			
+								                                        		</ul>
+								                                        	</div>
+								                                        </div>
+								                                        <div role="tabpanel" class="tab-pane" id="bowling">
+								                                        	<div class="cricket-myDeck-batting cricket-scroll-bar"
+								                                        	>
+								                                        		<div class="tournament-team-name-width dashboard-profile-width-100-percent">
+																					<table class="table tournament-team-table ">
+																						<thead>
+																							<tr class="cricket-player-list-item">
+																								<th>CARD NAME</th>
+																								<th>
+																									<div class="tournament-refresh tournament-home cricket-dashboard-width-100 cricket-dashboard-dropdown-content padding-remove">
+																										<div class="hamburger cricket-dashboard-dropdown criccket-player-list-dropdown">
+																											<i class="fa fa-caret-down" aria-hidden="true" style="float: right; font-size: 15px;"></i>
+																										</div>
+																										<ul class="menu cricket-drop-down-scroll-bar cricket-dashboard-dropdown-menu cricket-profile-level-cards-list">
+																											<li><a href="#" id="userCommon" class="userCommon">Common</a></li>
+																											<li><a href="#" id="userUncommon" class="userUncommon">Uncommon</a></li>
+																											<li><a href="#" id="userRare" class="userRare">Rare</a></li>
+																											<li><a href="#" id="userEpic" class="userEpic">Epic</a></li>
+																											<li><a href="#" id="userLegendary" class="userLegendary">Legendary</a></li>
+																										</ul>
+																									</div>
+																								</th>
+																								<th>USED</th>
+																							</tr>
+																						</thead>
+																					</table>	
+																				</div>
+								                                        		<ul class="cricket-mydeck-board dashboard-profile-cards-height cricket-scroll-bar ">
+								                                        			
+								                                        		</ul>
+								                                        	</div>
+								                                        </div>
+								                                    </div>
+																</div>
+		                                    				</div>
+		                                    			</div>
+		                                    		</section>
+		                                    	</div>
+		                                    </div>
+										</div>
+	                                </div>
+                                </div>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+		<div class="cricket-main-bat">
+			<img src="images/pro-tip/bowler-logo.png" style="float: right;">
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/sliders.js"></script>
+	<script src= "https://cdn.zingchart.com/zingchart.min.js"></script>
+	<script type="text/javascript" src="js/config.js"></script>
+		<!-- <script> zingchart.MODULESDIR = "https://cdn.zingchart.com/modules/";
+		ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9","ee6b7db5b51705a13dc2339db3edaf6d"];</script> -->
+
+		<!-- <script type="text/javascript"> -->
+			<script type="text/javascript">
+			  	$(document).ready(function(){
+					$('.hamburger').on('click',function(){
+						if(!$('.menu').is(':visible')){
+							$('.menu').slideDown();
+						}else{
+							$('.menu').slideUp();
+
+						}
+					})
+				})
+
+
+				$('.cricket-dashboard-dropdown-menu a').on('click', function(){    
+				    $(this).parent().parent().prev().html($(this).html() + '<span class="caret dashboard-caret"></span>');
+				    $('.menu').slideUp();
+				})
+		  </script>
+		
+    <script type="text/javascript" src="js/cards-level.js"></script>
+    <script type="text/javascript">
+    	
+		$("#playerId-btn").click(function(){
+
+			/*if($('#user-id').val() == ''){
+		        alert('Enter Player ID');
+		   } else{
+	  			showData("AnalyticsGetPlayerData");
+	
+
+	  		}*/
+	  		showData("AnalyticsGetPlayerData");
+		});
+
+
+		function showData(type){
+		var user_id = $("#user-id").val();
+		 if(user_id == null || user_id == "")
+		 	user_id = "5b3f10f26f217904e3fcf540";
+		// var end_date = $("#date-input1").val();
+		//"2018-06-07T00:00:00.000Z"
+	    var sendInfo = {
+			"@class": ".LogEventRequest",
+			"eventKey": type,
+			"userId": user_id, 
+			"playerId": playerId
+		};
+		ajaxCall(sendInfo, function(response){
+
+			// console.log(response);
+			if(response && response.error){
+				alert("Error occured try again");
+			}else if(response.scriptData){
+				if(type == "AnalyticsGetPlayerData"){
+					// var userName = response.scriptData["Player Data"].list.userName
+					if(response.scriptData["Player Data"] && response.scriptData["Player Data"]["list"]){
+						var responseDataSixes = 0;
+						var responseDataTotalRuns = 0;
+						var responseDataWickets = 0;
+						var responseDataFours = 0;
+						var UserWin = 0;
+						var UserLosses = 0;
+						var UserDraws = 0;
+						
+						if(response.scriptData["Player Data"]["list"]["userName"]){
+							var responseDataUsername = response.scriptData["Player Data"]["list"]["userName"];
+						} else{
+							console.log("error");	
+						}
+						if(response.scriptData["Player Data"]["list"].winsCount && response.scriptData["Player Data"]["list"].lossesCount && response.scriptData["Player Data"]["list"].drawsCount){
+							var responseDataMatches = response.scriptData["Player Data"]["list"].winsCount + response.scriptData["Player Data"]["list"].lossesCount + response.scriptData["Player Data"]["list"].drawsCount; 
+						} else{
+							console.log("error");	
+						}
+						if(response.scriptData["Player Data"]["list"].RunsAndWickets.totalRuns){
+							responseDataTotalRuns = response.scriptData["Player Data"]["list"].RunsAndWickets.totalRuns; 
+						} else{
+							console.log("error");	
+						}
+						if(response.scriptData["Player Data"]["list"].RunsAndWickets['W']){
+							responseDataWickets = response.scriptData["Player Data"]["list"].RunsAndWickets['W']; 
+						} else{
+							console.log("error");	
+						}
+						if(response.scriptData["Player Data"]["list"].RunsAndWickets[4]){
+							responseDataFours = response.scriptData["Player Data"]["list"].RunsAndWickets[4]; 
+						} else{
+							console.log("error");	
+						}
+						if(response.scriptData["Player Data"]["list"].RunsAndWickets[6] != null){
+							responseDataSixes = response.scriptData["Player Data"]["list"].RunsAndWickets[6]; 
+						} else{
+							console.log("error");	
+						}
+
+
+
+						if(response.scriptData["Player Data"]["list"].winsCount && response.scriptData["Player Data"]["list"].lossesCount && response.scriptData["Player Data"]["list"].drawsCount){
+							var UserWin = response.scriptData["Player Data"]["list"].winsCount;
+							var UserLosses = response.scriptData["Player Data"]["list"].lossesCount;
+							var UserDraws = response.scriptData["Player Data"]["list"].drawsCount;
+							
+							var myConfig ={
+									"type":"pie", //"pie", "pie3d", "ring", or "ring3d"
+								  	"title":{
+								    "text":"",
+								    "titleField"  : "Matches",
+							  	},
+								  "plot":{
+								  	"tooltip":{
+						      			// "text":"Matches :"
+						      			 "text":"%t:%v"
+						  				},
+								    "value-box":{
+								      "font-size":12,
+								      "font-weight":700
+								      // "placement":"out"
+								    }
+							  	},
+							  	"series":[
+								    {
+								    	"Matches": "DRAWS",
+								    	"values": [UserDraws],
+								    	"text":"DRAWS"
+								    },
+								    {
+								    	"Matches": "LOSS",
+								    	"values": [UserLosses],
+								    	"text":"LOSS"
+								    },
+								    {
+								    	"Matches": "WINS",
+								    	"values": [UserWin],
+								    	"text":"WINS"
+								    }
+							  	]
+							};
+
+							zingchart.render({ 
+								id : 'myChart', 
+								data : myConfig, 
+								height: 300, 
+								width: "100%" 
+							});
+						}
+
+
+
+						if(response.scriptData["Player Data"]["list"].cards){
+							var playerCardsList = response.scriptData["Player Data"]["list"].cards;
+							var keys =  Object.keys(playerCardsList);
+							for(var i = 0; i < keys.length; i++){
+								var card = response.scriptData["Player Data"]["list"].cards[keys[i]];
+								console.log(card);
+								var cardLevelName = getCardLevelName(card.level);
+								//TODO: Need to add count
+
+								$(".cricket-mydeck-board").append('<li class="dashboard-display-block padding-bottom-31px ' + card.type + ' '+ cardLevelName.toLowerCase()+ '">\
+										<table class="table" style="margin-bottom: 0 !important;">\
+											<tbody>\
+												<tr class="cricket-gaming-team-row cricket-player-list-item">\
+													<td class="">' + card.displayName + '</td>\
+													<td> ' + cardLevelName + '</td>\
+													<td>1</td>\
+												</tr>\
+											</tbody>\
+										</table>\
+						    		</li>');
+								}
+						} else {
+							console.log("error");	
+						}
+
+						console.log(playerCardsList);
+
+						function getUserProfile(cardDetails){
+
+							if(response.scriptData["Player Data"]["list"].cards.length > 0){
+								var CommonCards = [ ];	
+								var unCommonCards = [ ];	
+								var RareCards = [ ];
+								var EpicCards = [ ];	
+								var LegendaryCards = [ ];		 
+								$.each(response.scriptData["Player Data"]["list"].cards,function(index,levelCard){
+									console.log(levelCard);
+									if(levelCard.level == 1)
+										CommonCards.push(levelCard);
+									else if(levelCard.level == 2)
+										unCommonCards.push(levelCard);
+									else if(levelCard.level == 3)
+										RareCards.push(levelCard);
+									else if(levelCard.level == 4)
+										EpicCards.push(levelCard);
+									else if(levelCard.level == 5)
+										LegendaryCards.push(levelCard);
+
+								});
+
+							}else{
+								console.log("error");
+							}
+						}
+
+					
+
+
+						function getSelectedUsertype(selectType){
+					 		var responseCards = [];
+						
+							if(response.scriptData["Player Data"]["list"].cards.length > 0){	
+								$.each(response.scriptData["Player Data"]["list"].cards,function(index,CardType){
+									if(CardType.type == selectType)
+										responseCards.push(CardType);
+								});
+
+							}
+							else
+								console.log(type + "Data not available");
+								return responseCards;
+								
+						}
+
+
+
+						function getCardDetails(type){
+							var responseCardDetails = [];
+
+							if(response.scriptData["Player Data"]["list"].cards.length > 0){
+								$.each(response.scriptData["Player Data"]["list"].cards,function(index,levelCard){
+									if(levelCard.type == type)
+										responseCardDetails.push(levelCard);
+										
+								});
+							}
+							else
+								console.log(type + "Data not available");
+
+							return responseCardDetails;					 		
+					 	}
+
+					 	var levelCardCall;
+					 	function getChoosenLevel(LevelChoosen){
+					 		var levelCardCall = getSelectedUsertype(selectType);
+					 		var LevelChoosenCards = [];
+					 		if(levelCardCall){
+						 		$.each(levelCardCall,function(index,ChoosenLevelType){
+									if(ChoosenLevelType.level == LevelChoosen)
+										LevelChoosenCards.push(ChoosenLevelType);
+								});
+
+						 	} else 
+						 		console.log(LevelChoosen + "Data not available");
+						 	return LevelChoosenCards;
+					 	}
+
+
+					 	function getUnquieDetails(Unquielistsitem){
+					 		var levelUniquieList = getChoosenLevel(LevelChoosen);
+					 		var Unquielist = [];
+					 		if(levelUniquieList){
+					 			$.each(levelUniquieList,function(index,itemUnquielist){
+					 				if(Unquielist.indexOf(itemUnquielist.name) < 0)
+					 					Unquielist.push(itemUnquielist);
+					 			});
+					 		} else 
+					 			console.log(Unquielistsitem + "Data not available");
+					 		console.log(Unquielist);
+					 		return Unquielist;
+					 	}
+					 	
+					}
+				}
+
+				$(".cricket-dashboard-profile-list").html("");
+	
+
+					$(".cricket-dashboard-profile-list").append('\
+						<div class="cricket-profile-list-out">\
+	    					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove">\
+	    						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">\
+	    							<h2 style="text-align: left;"> Name:</h2>\
+	    						</div>\
+	    						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-remove">\
+	    							<h2 style="text-align: left;">' + responseDataUsername + '</h2>\
+	    						</div>\
+	    					</div>\
+	    					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove">\
+	    						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">\
+	    							<h2 style="text-align: left;"> Matches:</h2>\
+	    						</div>\
+	    						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-remove">\
+	    							<h2 style="text-align: left;">' + responseDataMatches + '</h2>\
+	    						</div>\
+	    					</div>\
+	    					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove">\
+	    						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">\
+	    							<h2 style="text-align: left;">Runs:</h2>\
+	    						</div>\
+	    						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-remove">\
+	    							<h2 style="text-align: left;">' + responseDataTotalRuns + '</h2>\
+	    						</div>\
+	    					</div>\
+	    					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove">\
+	    						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">\
+	    							<h2 style="text-align: left;">Wickets:</h2>\
+	    						</div>\
+	    						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-remove">\
+	    							<h2 style="text-align: left;">' + responseDataWickets + '</h2>\
+	    						</div>\
+	    					</div>\
+	    					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove">\
+	    						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">\
+	    							<h2 style="text-align: left;">Fours:</h2>\
+	    						</div>\
+	    						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-remove">\
+	    							<h2 style="text-align: left;">' + responseDataFours + '</h2>\
+	    						</div>\
+	    					</div>\
+	    					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove">\
+	    						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">\
+	    							<h2 style="text-align: left;">Sixes:</h2>\
+	    						</div>\
+	    						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-remove">\
+	    							<h2 style="text-align: left;">' + responseDataSixes + '</h2>\
+	    						</div>\
+	    					</div>\
+	    				</div>');				
+				
+
+				var master = [];
+
+
+				$(function(){
+					$("#battingSelected").click(function() {
+						$(".dashboard-display-block").attr('style','display:none !important');
+				        $(".batting").show();
+					});
+					$("#bowlingSelected").click(function() {
+				        $(".dashboard-display-block").attr('style','display:none !important');
+				        $(".bowling").show();
+					});
+
+					function setCardsUI(cards){
+						$(".dashboard-display-block").hide();
+					}
+
+
+				 	$(".userCommon").click(function(){
+				  		
+				  		$(".dashboard-display-block").attr('style','display:none !important');
+				        $(".common").show();
+				        
+					});
+				  	$(".userUncommon").click(function(){
+				  		
+				  		$(".dashboard-display-block").attr('style','display:none !important');
+				        $(".uncommon").show();
+				  	});
+				  	$(".userRare").click(function(){
+				  		
+				  		$(".dashboard-display-block").attr('style','display:none !important');
+				        $(".rare").show();
+				  	});
+				  	$(".userEpic").click(function(){
+				  		
+				  		$(".dashboard-display-block").attr('style','display:none !important');
+				        $(".epic").show();
+				  	});
+				  	$(".userLegendary").click(function(){
+				  		
+				  		$(".dashboard-display-block").attr('style','display:none !important');
+				        $(".legendary").show();
+				  	});
+
+				});
+						
+				}else{
+				alert("No Data Found");
+			}
+
+		});
+	}
+
+
+
+
+		
+
+	function ajaxCall(inputData, returnFunction){
+		$.ajax({
+			'type': "POST",
+            'url': "https://" + gameCode + "." + server + ".gamesparks.net/rs/" + credential + "/" + secret + "/LogEventRequest",
+            'dataType': "json",
+            'contentType': 'application/json',
+            'data': JSON.stringify(inputData),
+         	success: function (msg) {
+               	returnFunction(msg);
+           	},
+           	error: function(msg){
+           		console.log(msg);
+           	}   
+		});
+	}
+    </script>
+</body>
+</html>

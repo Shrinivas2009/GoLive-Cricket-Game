@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Cricket Game</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style-login.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+<body>
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove cricket-gaming">
+		<div class="cricket-gaming-background">
+			<div class="cricket-gaming-login">
+				<div class="cricket-gaming-login-board">
+					<div class="cricket-gaming-login-header">
+						<h2>LOGIN</h2>
+					</div>
+					<div class="cricket-gaming-login-section">
+						<div class="cricket-gaming-email">
+							<input type="text" name="" placeholder="Email" id="username" class="input-icon-mail">
+							<!-- <div class="cricket-gaming-mail-icon">
+								<img src="images/login/mail-icon.png">
+							</div> -->
+							<!-- <h2>Email</h2> -->
+						</div>
+						<div class="cricket-gaming-email">
+							<input type="text" name="" placeholder="Password" id="password" class="input-icon-password">
+							<!-- <div class="cricket-gaming-mail-icon padding-add">
+								<img src="images/login/password-icon.png">
+							</div>
+							<h2>Password</h2> -->
+						</div>
+						<div class="cricket-login-forget-password">
+							<div class="col-sm-6 col-xs-6 padding-remove cricket-gaming-login-checked">
+								<input type="checkbox" name="Stay signed in"><span>Stay signed in</span>
+							</div>
+							<div class="col-sm-6 col-xs-6 padding-remove cricket-gaming-login-forget">
+								<a href="forget-password.html"><u>Forget Password</u></a>
+							</div>
+						</div>
+						<div class="cricket-gaming-login-button">
+							<button class="btn center-block" id="submit" onclick="validate()">Login</button>
+						</div>
+						<div class="cricket-gaming-login-register">
+							<p>Don't have we account? <a href="register.html"><u>Register</u></a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/gamesparks-rt.js"></script>
+	<script type="text/javascript" src="js/gamesparks.js"></script>
+	<script type="text/javascript" src="js/gamesparks-functions.js"></script>
+	<script type="text/javascript" src="js/hmac-sha256.js"></script>
+	<script type="text/javascript">
+		// var attempt = 3;
+		function validate(){
+			var username = document.getElementById("username").value;
+			var password = document.getElementById("password").value;
+				
+		}
+	</script>
+	<script type="text/javascript">
+		document.getElementById("submit").onclick = function () {
+	        location.href = "pro-tip.html";
+	    };
+	</script>
+	
+</body>
+</html>

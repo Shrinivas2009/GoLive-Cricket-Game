@@ -1,0 +1,38 @@
+#myChart-graph-id0-path{
+    fill: transparent !important;
+}
+/*
+#myChart-svg{
+    height: 170px !important;
+}
+#myChart-main{
+    height: 170px !important;
+}*/
+#myChart-graph-id0-scale-x-path{
+	stroke: #fff;
+}
+#myChart-graph-id0-scale-y-path{
+	stroke: #fff;
+}
+#myChart-graph-id0-scale-y-tick-8-path{
+	stroke: #fff;
+}
+#myChart-license-text{
+    display: none;
+}
+.zc-scale-item{
+	color: #fff;
+	fill: #fff;
+	/*stroke: #fff;*/
+	font-weight: 100 !important;
+}
+.zc-scale-item tspan{
+	color: #fff !important;
+	fill: #fff !important;
+}
+#myChart-text text{
+	color: #fff !important;
+}
+#myChart-path{
+	/*fill: transparent !important;*/
+}

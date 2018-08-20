@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Cricket Game</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style-dashboard.css">
+	<link rel="stylesheet" type="text/css" href="css/style-dashboard-chart.css">
+	<link rel="stylesheet" type="text/css" href="css/style-t.css">
+	<link rel="stylesheet" type="text/css" href="css/style-drop.css">
+	<link rel="stylesheet" type="text/css" href="css/style-invite.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/style-profile.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/jquery.mobile-git.css">
+	<!-- <link rel="stylesheet"  href="http://code.jquery.com/mobile/git/jquery.mobile-git.css" />  -->
+	<link rel="stylesheet" type="text/css" href="css/jquery.mobile.datepicker.css">
+  	<!-- <link rel="stylesheet" href="https://rawgithub.com/arschmitz/jquery-mobile-datepicker-wrapper/master/jquery.mobile.datepicker.css" /> -->
+</head>
+<body>
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove cricket-gaming">
+		<div class="cricket-main-bat">
+			<img src="images/pro-tip/bat-logo.png">
+		</div>
+		<div class="cricket-gaming-background cricket-main-center">
+			<header class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove cricket-gaming-header">
+				<!-- <img src="images/header.jpg" class="cricket-head-image"> -->
+				<div class="cricket-fixed-header">
+					<div class="cricket-gaming-heading">
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 padding-remove">
+							<div class="tournament-home">
+								<a href="index.html">
+									<button>
+										<img src="images/SPR_HomeIcon.png">
+									</button>
+								</a>
+							</div>	
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding-remove">
+							<div class=" cricket-golive-games">
+								<h1 style="">DASHBOARD USED CARDS</h1>
+							</div>	
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 cricket-gold-coin">
+							<!-- <h3>6000</h3> -->
+							<!-- <img src="images/header/coin.png" class="coins-image-right"> -->
+						</div>					
+					</div>
+				</div>
+			</header>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove" style="top: 50px;">
+				<div class="tournament-background">
+					<div class="tournament-team-name">
+						<div class="col-lg-12 col-md-12 padding-remove ">
+							<div class="cricket-gaming-tournament">
+								<div class="cricket-myDeck-height cricket-myDeck-height-66">	
+									<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove">
+	                                    <div class="card">
+		                                
+		                                    <div class="cricket-customize-detail padding-left-remove">
+		                                    	<div class="cricket-customize cricket-dashboard-width-98">
+		                                    		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove">
+		                                    			<!-- <form action="" class="cricket-peak-hour-form" style="overflow: hidden;" name="peakHourPlayers"> -->
+			                                    			<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 padding-remove" style="padding: 0 8px !important;">
+			                                    				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 padding-remove">
+			                                    					<div data-role="content dashboard-calender">
+			                                    						<i class="fa fa-calendar calender"></i>
+																		<input type="text" id="date-input" data-inline="false" data-role="date" placeholder="start date">
+																	</div>
+			                                    				</div>
+			                                    				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 padding-remove"><h2 style="font-size: 14px; font-weight: 200;">to</h2></div>
+			                                    				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 padding-remove">
+			                                    					<div data-role="content">
+			                                    						<i class="fa fa-calendar calender"></i>
+																		<input type="text" id="date-input1" data-inline="false" data-role="date" placeholder="end date">
+																	</div>
+			                                    				</div>
+			                                    			</div>
+			                                    			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 padding-remove">
+			                                    				<div class="dashboard-profile-go-btn">
+																	<button class="btn " id="used-cards">GO</button>
+																</div>
+			                                    			</div>
+		                                    			<!-- </form> -->
+		                                    		</div>
+		                                    		<section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-remove">
+		                                    			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cricket-peak-hour-header">
+		                                    				<h1>Used Cards</h1>
+		                                    			</div>
+		                                    			<div class="cricket-bg-dashboard cricket-24-hour-chart-bg ">
+		                                    				<div id='myChart'></div>
+		                                    			</div>
+		                                    		</section>
+		                                    	</div>
+		                                    </div>
+										</div>
+	                                </div>
+                                </div>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+		<div class="cricket-main-bat">
+			<img src="images/pro-tip/bowler-logo.png" style="float: right;">
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/sliders.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script> 
+    <script type="text/javascript" src="js/jquery.ui.datepicker.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-git.js"></script> 
+    <script type="text/javascript" src="js/jquery.mobile.datepicker.js"></script>
+    <!-- <script src="js/canvasjs.min.js"></script> -->
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> 
+	<!-- <script type="text/javascript" src= "js/Chart.min.js"></script> -->
+	<script type="text/javascript" src= "js/zingchart.min.js"></script>
+	<script> zingchart.MODULESDIR = "https://cdn.zingchart.com/modules/";
+		ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9","ee6b7db5b51705a13dc2339db3edaf6d"];</script>
+<script type="text/javascript">
+	$("#used-cards").click(function(){
+  		showData("AnalyticsUsedCards");	
+	});
+
+	function showData(type){
+		var start_date = $("#date-input").val();
+		var end_date = $("#date-input1").val();
+		//"2018-06-07T00:00:00.000Z"
+	    var sendInfo = {
+			"@class": ".LogEventRequest",
+			"eventKey": type,
+			"startDate": start_date,
+			"endDate": end_date, 
+			"playerId": playerId
+		};
+		ajaxCall(sendInfo, function(response){
+			if(response && response.error){
+				alert("Error occured try again");
+			}else if(response.scriptData && response.scriptData["Used Cards"] && response.scriptData["Used Cards"]["list"]){
+				var list = [];
+				var timing = [];
+
+				for(var i = 0; i < 35; i++){
+					list[i] = 0;
+					timing[i] = i;
+				}
+				var keys = Object.keys(response.scriptData["Used Cards"]["list"]);
+
+				keys.forEach(function(key, index){
+					list[key] = response.scriptData["Used Cards"]["list"][key].count;
+				});
+				
+				var myConfig ={
+					"graphset":[
+			        	{
+			            	"type":"hbar",
+			            	"title":{
+			            	},
+			            	scaleY:{
+					 	  		format:"%v",
+					 	  		lineWidth:1,
+					 	  		lineColor:"#FFFFFF",
+					 	  		label:{
+							 	    color:"#FFFFFF",
+							 	    fontWeight:"none",
+							 	    text:"Players"
+							 	  },
+						 	  	tick:{
+							 	    lineWidth:1,
+							 	    lineColor:"#FFFFFF"
+						 	  	},
+						 	  	item:{
+						 	    	color:"#FFFFFF"
+						 	  	}
+						 	},
+				            "scale-x":{	
+				                "labels": timing,
+				                "text": "Hours"
+				            },
+				            "series":[
+				                {
+				                    "values": list
+				                }
+				            ]
+				        }
+				    ]
+				};
+               	zingchart.render({ 
+					id : 'myChart', 
+					data : myConfig, 
+					height: "350", 
+					width: "100%" 
+				});
+			}else{
+				alert("No Data Found");
+			}
+		});
+	}
+
+	function ajaxCall(inputData, returnFunction){
+		$.ajax({
+			'type': "POST",
+            'url': "https://" + gameCode + "." + server + ".gamesparks.net/rs/" + credential + "/" + secret + "/LogEventRequest",
+            'dataType': "json",
+            'contentType': 'application/json',
+            'data': JSON.stringify(inputData),
+         	success: function (msg) {
+               	returnFunction(msg);
+           	},
+           	error: function(msg){
+           		console.log(msg)
+           	}   
+		});
+	}
+	</script>
+</body>
+</html>

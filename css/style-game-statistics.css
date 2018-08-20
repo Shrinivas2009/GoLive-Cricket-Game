@@ -1,0 +1,46 @@
+.cricket-gaming-statistics-date{
+	padding: 5px 5px;
+	margin-top: 1px !important;
+}
+.cricket-gaming-statistics-date .btn {
+    /*display: inline-block;*/
+    padding: 5px 12px;
+    font-size: 13px;
+}
+#myChart-graph-id0-path{
+	fill: transparent;
+}
+#myChart-license-text{
+	display: none;
+}
+.myChart-graph-id0-scale-y-item tspan{
+	/*fill: #fff !important;*/
+	/*color: #fff !important;*/
+}
+#myChart-graph-id0-scale-x-path{
+	/*fill: #fff;*/
+	/*stroke: #fff;*/
+}
+#myChart-graph-id0-scale-x-tick-30-path{
+	/*stroke: #fff;	*/
+}
+#myChart-graph-id0-scale-y-path{
+	/*stroke: #fff;*/
+}
+#myChart-graph-id0-scale-y-tick-10-path{
+	/*stroke: #fff;*/
+}
+#myChart-graph-id0-source{
+	/*display: none;*/
+}
+.zc-scale-item tspan{
+	/*color: #fff !important;*/
+	/*fill: #fff;*/
+}
+/******************************/
+#myAvg-graph-id0-path{
+	fill: transparent;
+}
+#myAvg-license-text{
+	display: none;
+}
