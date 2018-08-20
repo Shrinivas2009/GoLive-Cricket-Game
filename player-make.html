@@ -59,18 +59,18 @@
 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript">
-		// function loading(percent){
-		// 	$('.progress span').animate({width:percent},500,function(){
-		// 		$(this).children().html(percent);
-	 //            if(percent=='100%'){
-	 //                $(this).children().html('Loading Complete,...&nbsp;&nbsp;&nbsp;&nbsp;');
-	 //                setTimeout(function(){
-	 //                    $('.container').fadeOut();
-	 //            			location.href="toss.html";
-	 //                },);
-	 //            }
-		// 	})
-		// }
+		function loading(percent){
+			$('.progress span').animate({width:percent},500,function(){
+				$(this).children().html(percent);
+	            if(percent=='100%'){
+	                $(this).children().html('Loading Complete,...&nbsp;&nbsp;&nbsp;&nbsp;');
+	                setTimeout(function(){
+	                    $('.container').fadeOut();
+	            			location.href="toss.html";
+	                },);
+	            }
+			})
+		}
 	</script>
 	<!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]--> 
 <script type="text/javascript">loading('5%');</script> 
